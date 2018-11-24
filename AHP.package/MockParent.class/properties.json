@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "Casco 11/24/2018 10:39",
+	"super" : "AHPNode",
+	"category" : "AHP-tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"localPriority",
+		"overallPriority"
+	],
+	"name" : "MockParent",
+	"type" : "normal"
+}

@@ -1,0 +1,10 @@
+running
+setUp
+	self
+		prepareNodes;
+		prepareIntermediateComparisons;
+		prepareComfortComparisons;
+		prepareSafetyComparisons;
+		prepareAestheticsComparisons;
+		prepareMaintenanceCostComparisons;
+		prepareAcquisitionCostComparisons.

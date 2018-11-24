@@ -1,0 +1,3 @@
+accessing
+overallPriorityFor: anAHPNode
+	^ overallPriority

@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "",
+	"super" : "AHPTestCase",
+	"category" : "AHP-tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alternativesAcquisitionCostCluster",
+		"acquisitionCost",
+		"maintenanceCost",
+		"safety",
+		"comfort",
+		"aesthetics",
+		"carOne",
+		"carTwo",
+		"carThree",
+		"alternativesAestheticsCluster",
+		"alternativesSafetyCluster",
+		"alternativesMaintenanceCostCluster",
+		"alternativesComfortCluster",
+		"goal",
+		"cost"
+	],
+	"name" : "PracticalDecisionMakingExample",
+	"type" : "normal"
+}
