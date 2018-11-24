@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "Casco 11/24/2018 16:21",
+	"super" : "Object",
+	"category" : "AHP-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"decisions",
+		"rootNodes"
+	],
+	"name" : "AHPApplicationModel",
+	"type" : "normal"
+}

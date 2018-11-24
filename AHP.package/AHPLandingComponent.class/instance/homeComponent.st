@@ -1,0 +1,3 @@
+hooks
+homeComponent
+	^ AHPIndexComponent new
