@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	self model: AHPApplicationModel new
+	self model: AHPApplicationModel singleton

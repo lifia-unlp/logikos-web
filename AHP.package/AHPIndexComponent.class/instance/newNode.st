@@ -1,3 +1,3 @@
 callbacks
 newNode
-	self model newRootNode
+	self model newDecisionModel

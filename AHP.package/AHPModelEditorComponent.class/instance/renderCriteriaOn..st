@@ -8,12 +8,14 @@ renderCriteriaOn: html
 				level: 4;
 				with: 'Sub-criteria' ].
 	html
-		unorderedList: [ self model nodes
+		unorderedList: [ self nodes
 				do: [ :each | 
 					html
 						listItem: [ html anchor
 								callback: [ self editNode: each ];
-								with: each name ] ] ].
+								with: each name.
+							html space.
+							self renderPrioritiesFor: each under: self model on: html ] ] ].
 	html anchor
 		callback: [ self newNode ];
 		with: 'New ...'

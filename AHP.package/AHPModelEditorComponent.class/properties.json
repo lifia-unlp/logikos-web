@@ -8,6 +8,6 @@
 	"instvars" : [
 		"name"
 	],
-	"name" : "AHPNodeEditorComponent",
+	"name" : "AHPModelEditorComponent",
 	"type" : "normal"
 }

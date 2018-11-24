@@ -1,3 +1,3 @@
 accessing
-newRootNode
+newDecisionModel
 	rootNodes add: (AHPNode named: 'Anonymous model')

@@ -1,0 +1,3 @@
+accessing
+nodes
+	^ goalModel nodes

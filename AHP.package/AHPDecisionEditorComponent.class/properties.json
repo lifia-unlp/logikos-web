@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Casco 11/24/2018 18:18",
+	"super" : "BootstrapComponentSkeleton",
+	"category" : "AHP-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AHPDecisionEditorComponent",
+	"type" : "normal"
+}
