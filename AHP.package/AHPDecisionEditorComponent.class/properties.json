@@ -9,7 +9,8 @@
 		"name",
 		"preferenceWeightingComponent",
 		"inlineEditorComponentForName",
-		"selectedLeafNode"
+		"selectedLeafNode",
+		"autoRankingSubcomponent"
 	],
 	"name" : "AHPDecisionEditorComponent",
 	"type" : "normal"

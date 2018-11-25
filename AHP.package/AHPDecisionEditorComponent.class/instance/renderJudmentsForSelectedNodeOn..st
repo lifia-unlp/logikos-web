@@ -6,7 +6,7 @@ renderJudmentsForSelectedNodeOn: html
 	html
 		unorderedList: [ self model alternatives
 				do:
-					[ :each | html listItem: [ html text: each name, ' ' , (self localPriorityStringFor: each) , (self propertyValueStringFor: each)  ] ] ].
+					[ :each | html listItem: [ html text: each name, ' ' , (self localPriorityStringFor: each)  ] ] ].
 	html heading
 		level: 5;
 		with: 'Relative preferences'.

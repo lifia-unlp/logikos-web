@@ -1,3 +1,5 @@
 accessing
 children
-	^ {preferenceWeightingComponent}
+	^ {preferenceWeightingComponent.
+	autoRankingSubcomponent.
+	inlineEditorComponentForName}
