@@ -1,8 +1,7 @@
 rendering
 renderOverallPriorityFor: aNode on: html
 	html
-		text: '(';
-		strong: 'OP:';
+		text: '(Overal preference:';
 		space;
 		text: (aNode overallPriority round: 3) printString;
 		text: ')'

@@ -1,3 +1,4 @@
 callbacks
 cancel
-	name := self model name
+	name := self model name.
+	self answer.

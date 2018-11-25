@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"name",
-		"preferenceWeightingComponent"
+		"preferenceWeightingComponent",
+		"inlineEditorComponentForName",
+		"selectedLeafNode"
 	],
 	"name" : "AHPDecisionEditorComponent",
 	"type" : "normal"

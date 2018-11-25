@@ -13,17 +13,16 @@ renderAlternativesOn: html
 							html space.
 							html anchor
 								callback: [ self editAlternative: each ];
-								with: [ html tbsButton
-										beExtraSmall;
-										with: 'Edit' ].
+								with: [ html tbsGlyphIcon
+										tbsTooltip: 'Edit this alternative';
+										iconPencil ].
 							html space.
 							html anchor
 								callback: [ self removeAlternative: each ];
-								with: [ html tbsButton
-										beExtraSmall;
-										with: 'Remove' ] ] ] ].
-	html anchor
-		callback: [ self addNewAlternative ];
-		with: [ html tbsButton
-				beExtraSmall;
-				with: 'New' ]
+								with: [ html tbsGlyphIcon
+										tbsTooltip: 'Trash this alternative';
+										iconTrash ] ] ].
+			html
+				listItem: [ html anchor
+						callback: [ self addNewAlternative ];
+						with: 'New ...' ] ]

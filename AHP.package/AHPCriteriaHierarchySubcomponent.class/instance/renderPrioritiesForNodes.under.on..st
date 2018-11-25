@@ -1,7 +1,7 @@
 rendering
 renderPrioritiesForNodes: nodes under: parentNode on: html
 	html
-		unorderedList: [ nodes
+		unorderedList: [ (nodes asSortedCollection: [  :a :b | a name < b name])
 				do: [ :each | 
 					html
 						listItem: [ html anchor

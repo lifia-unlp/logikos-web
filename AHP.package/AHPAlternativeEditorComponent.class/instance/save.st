@@ -1,3 +1,4 @@
 callbacks
 save
-	self model name: name
+	self model name: name.
+	self answer
