@@ -9,4 +9,5 @@ renderContentOn: html
 						paragraph: [ self
 								renderPreferenceJudgmentBetween: (nodes at: i)
 								and: (nodes at: j)
+								at: node
 								on: html ] ] ] ]

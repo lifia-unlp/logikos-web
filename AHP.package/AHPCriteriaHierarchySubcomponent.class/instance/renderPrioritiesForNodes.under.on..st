@@ -9,4 +9,9 @@ renderPrioritiesForNodes: nodes under: parentNode on: html
 								with: each name.
 							html space.
 							self renderPrioritiesFor: each under: parentNode on: html.
-							each nodes ifNotEmpty: [ self renderPrioritiesForNodes: each nodes under: each on: html ] ] ] ]
+							each nodes ifNotEmpty: [ self renderPrioritiesForNodes: each nodes under: each on: html ] ] ].
+			parentNode = node
+				ifTrue: [ html
+						listItem: [ html anchor
+								callback: [ self newNode ];
+								with: 'New ...' ] ] ]

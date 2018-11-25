@@ -1,3 +1,4 @@
 accessing
 addAlternative: aNode
-	alternatives add: aNode
+	alternatives add: aNode.
+	leafNodes do: [ :each | each add: aNode ]

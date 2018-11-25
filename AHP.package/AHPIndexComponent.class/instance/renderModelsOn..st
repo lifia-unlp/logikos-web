@@ -2,7 +2,7 @@ rendering
 renderModelsOn: html
 	html heading
 		level: 3;
-		with: 'Available decision models'.
+		with: 'Decision profiles (templates)'.
 	html
 		unorderedList: [ self model rootNodes
 				do: [ :each | 
@@ -12,21 +12,22 @@ renderModelsOn: html
 								space.
 							html anchor
 								callback: [ self editNode: each ];
-								with: [ html tbsButton
-										beExtraSmall;
-										with: 'Edit' ].
+								with: [ html tbsGlyphIcon
+										tbsTooltip: 'Edit this template';
+										iconPencil ].
 							html space.
 							html anchor
 								callback: [ self remove: each ];
-								with: [ html tbsButton
-										beExtraSmall;
-										with: 'Remove' ].
+								with: [ html tbsGlyphIcon
+										tbsTooltip: 'Trash this template';
+										iconTrash ].
 							html space.
 							html anchor
 								callback: [ self newDecisionBasedOn: each ];
-								with: [ html tbsButton
-										beExtraSmall;
-										with: 'Use' ] ] ] ].
-	html anchor
-		callback: [ self newNode ];
-		with: 'New ...'
+								with: [ html tbsGlyphIcon
+										tbsTooltip: 'Use this template in a new decision';
+										iconShare ] ] ].
+			html
+				listItem: [ html anchor
+						callback: [ self newNode ];
+						with: 'New ...' ] ]

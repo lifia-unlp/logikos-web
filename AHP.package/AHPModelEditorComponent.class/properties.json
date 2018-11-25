@@ -8,7 +8,8 @@
 	"instvars" : [
 		"name",
 		"preferencesComponent",
-		"criteriaHierarchyComponent"
+		"criteriaHierarchyComponent",
+		"inlineEditorComponentForName"
 	],
 	"name" : "AHPModelEditorComponent",
 	"type" : "normal"

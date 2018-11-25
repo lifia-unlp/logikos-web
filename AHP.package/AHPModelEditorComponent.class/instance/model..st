@@ -7,4 +7,5 @@ model: aNode
 		yourself.
 	criteriaHierarchyComponent := (AHPCriteriaHierarchySubcomponent parent: self)
 		node: aNode;
-		yourself
+		yourself.
+	inlineEditorComponentForName := AHPInlinePropertySubcomponent object: aNode selector: #name label: 'Name'

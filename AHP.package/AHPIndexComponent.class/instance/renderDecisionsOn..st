@@ -12,12 +12,12 @@ renderDecisionsOn: html
 								space.
 							html anchor
 								callback: [ self editDecision: each ];
-								with: [ html tbsButton
-										beExtraSmall;
-										with: 'Edit' ].
+								with: [ html tbsGlyphIcon
+										tbsTooltip: 'Edit this decision';
+										iconPencil ].
 							html space.
 							html anchor
 								callback: [ self removeDecision: each ];
-								with: [ html tbsButton
-										beExtraSmall;
-										with: 'Remove' ] ] ] ]
+								with: [ html tbsGlyphIcon
+										tbsTooltip: 'Trash this decision';
+										iconTrash ] ] ] ]

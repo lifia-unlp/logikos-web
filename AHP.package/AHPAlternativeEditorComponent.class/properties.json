@@ -1,14 +1,13 @@
 {
-	"commentStamp" : "Casco 11/24/2018 18:18",
+	"commentStamp" : "Casco 11/25/2018 08:54",
 	"super" : "BootstrapComponentSkeleton",
 	"category" : "AHP-web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"preferenceWeightingComponent"
+		"name"
 	],
-	"name" : "AHPDecisionEditorComponent",
+	"name" : "AHPAlternativeEditorComponent",
 	"type" : "normal"
 }
