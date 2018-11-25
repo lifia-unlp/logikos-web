@@ -6,7 +6,7 @@ renderEditingOn: html
 						for: 'property';
 						with: label.
 					html textInput
-						on: selector of: object;
+						on: #value of: self;
 						tbsFormControl;
 						id: 'property' ].
 			html tbsButton
