@@ -11,4 +11,4 @@ renderLeafNodeSelectorTabOn: html
 					item
 						with: [ html anchor
 								callback: [ selectedLeafNode := each ];
-								with: each name ] ] ]
+								with: each name, (each isTangible ifTrue: [ ' (Tangible)' ] ifFalse: [ ' (Intangible)' ]) ] ] ]

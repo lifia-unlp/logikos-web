@@ -1,3 +1,3 @@
 callbacks
 addNewAlternative
-	self model addAlternative: (AHPNode named: 'Undefined alternative')
+	self model addAlternative: (AHPAlternative named: 'Undefined alternative')

@@ -1,4 +1,5 @@
 accessing
 model: aModel
-	super model: aModel.
-	name := aModel name
+	name := aModel name.
+	object := aModel object.
+	super model: aModel

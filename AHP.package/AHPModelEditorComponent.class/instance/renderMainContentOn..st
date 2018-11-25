@@ -1,6 +1,6 @@
 rendering
 renderMainContentOn: html
-	self renderEditFormOn: html.
+	self renderDetailsOn: html.
 	self renderCriteriaOn: html.
 	self model nodes size > 1
 		ifTrue: [ html heading

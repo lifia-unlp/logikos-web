@@ -1,3 +1,3 @@
 callbacks
 newNode
-	node add: (AHPNode named: 'Undefined node')
+	node add: (AHPCriteria  named: 'Undefined node')

@@ -26,7 +26,7 @@ renderModelsOn: html
 								callback: [ self newDecisionBasedOn: each ];
 								with: [ html tbsGlyphIcon
 										tbsTooltip: 'Use this template in a new decision';
-										iconShare ] ] ].
+										iconShareAlt ] ] ].
 			html
 				listItem: [ html anchor
 						callback: [ self newNode ];

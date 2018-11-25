@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name"
+		"name",
+		"object"
 	],
 	"name" : "AHPAlternativeEditorComponent",
 	"type" : "normal"

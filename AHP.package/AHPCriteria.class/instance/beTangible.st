@@ -1,0 +1,3 @@
+initialization
+beTangible
+	isTangible := true

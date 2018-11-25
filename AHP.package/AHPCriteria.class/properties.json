@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Casco 11/25/2018 12:58",
+	"super" : "AHPNode",
+	"category" : "AHP-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isTangible"
+	],
+	"name" : "AHPCriteria",
+	"type" : "normal"
+}
