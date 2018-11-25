@@ -1,6 +1,6 @@
 rendering
 renderMainContentOn: html
-	super renderMainContentOn: html.
+	self renderEditFormOn: html.
 	self model alternatives
 		ifNotEmpty: [ self model leafNodes
 				do: [ :each | 

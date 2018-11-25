@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "Casco 11/24/2018 19:21",
+	"commentStamp" : "Casco 11/24/2018 23:48",
 	"super" : "BootstrapSubComponentSkeleton",
 	"category" : "AHP-web",
 	"classinstvars" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"node"
 	],
-	"name" : "AHPPreferenceWeightingSubcomponent",
+	"name" : "AHPCriteriaHierarchySubcomponent",
 	"type" : "normal"
 }

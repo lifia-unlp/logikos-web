@@ -7,15 +7,4 @@ renderCriteriaOn: html
 		ifNotEmpty: [ html heading
 				level: 4;
 				with: 'Sub-criteria' ].
-	html
-		unorderedList: [ self nodes
-				do: [ :each | 
-					html
-						listItem: [ html anchor
-								callback: [ self editNode: each ];
-								with: each name.
-							html space.
-							self renderPrioritiesFor: each under: self model on: html ] ] ].
-	html anchor
-		callback: [ self newNode ];
-		with: 'New ...'
+	html render: criteriaHierarchyComponent

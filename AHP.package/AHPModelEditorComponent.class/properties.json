@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name"
+		"name",
+		"preferencesComponent",
+		"criteriaHierarchyComponent"
 	],
 	"name" : "AHPModelEditorComponent",
 	"type" : "normal"
