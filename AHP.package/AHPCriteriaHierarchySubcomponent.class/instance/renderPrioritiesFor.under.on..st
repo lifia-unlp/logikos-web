@@ -1,5 +1,6 @@
 rendering
 renderPrioritiesFor: aNode under: parentNode on: html
+
 	html
 		text: '(';
 		strong: 'LP:';

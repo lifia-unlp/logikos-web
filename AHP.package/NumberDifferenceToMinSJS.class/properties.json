@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Casco 11/26/2018 09:46",
+	"super" : "SmartJudgmentStrategy",
+	"category" : "AHP-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"largerIsBetter"
+	],
+	"name" : "NumberDifferenceToMinSJS",
+	"type" : "normal"
+}
