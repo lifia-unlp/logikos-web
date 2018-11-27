@@ -1,0 +1,3 @@
+converting
+asJsonWithPriorities
+	^ NeoJSONWriter toString: self asDictionaryWithPriorities
