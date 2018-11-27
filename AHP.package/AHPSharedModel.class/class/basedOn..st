@@ -1,5 +1,5 @@
 instance-creation
 basedOn: aModel
 	^ self new
-		goalModel: aModel;
+		goalModel: aModel veryDeepCopy;
 		yourself

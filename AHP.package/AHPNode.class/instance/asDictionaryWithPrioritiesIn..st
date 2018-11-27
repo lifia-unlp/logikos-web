@@ -6,7 +6,7 @@ asDictionaryWithPrioritiesIn: aModel
 	aModel
 		ifNotNil: [ dict
 				at: 'localPriority' put: (aModel localPriorityFor: self);
-				at: 'overalllPriority' put: (aModel overallPriorityFor: self) ].
+				at: 'overallPriority' put: (aModel overallPriorityFor: self) ].
 	dict
 		at: 'nodes'
 		put: (nodes collect: [ :each | each asDictionaryWithPrioritiesIn: self ]).

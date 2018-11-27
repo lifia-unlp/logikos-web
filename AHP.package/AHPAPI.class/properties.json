@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Casco 11/27/2018 18:29",
+	"super" : "WARestfulHandler",
+	"category" : "AHP-API",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AHPAPI",
+	"type" : "normal"
+}

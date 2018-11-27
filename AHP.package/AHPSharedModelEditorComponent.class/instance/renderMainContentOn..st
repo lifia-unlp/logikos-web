@@ -4,6 +4,6 @@ renderMainContentOn: html
 		level: 4;
 		with: 'Details'.
 	html
-		tbsForm: [ 
-			self renderInputFieldsOn: html.
-			self renderFormButtonsOn: html ]
+		tbsForm: [ self renderInputFieldsOn: html.
+			self renderFormButtonsOn: html ].
+	self renderModelCriteriaOn: html
