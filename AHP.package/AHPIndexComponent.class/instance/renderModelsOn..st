@@ -26,6 +26,12 @@ renderModelsOn: html
 								callback: [ self newDecisionBasedOn: each ];
 								with: [ html tbsGlyphIcon
 										tbsTooltip: 'Use this template in a new decision';
+										iconListAlt ].
+							html space.
+							html anchor
+								callback: [ self newSharedModelBasedOn: each ];
+								with: [ html tbsGlyphIcon
+										tbsTooltip: 'Share this model';
 										iconShareAlt ] ] ].
 			html
 				listItem: [ html anchor

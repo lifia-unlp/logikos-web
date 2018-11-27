@@ -2,4 +2,5 @@ rendering
 renderMainContentOn: html
 	self
 		renderModelsOn: html;
-		renderDecisionsOn: html
+		renderDecisionsOn: html;
+		renderSharedModelsOn: html
