@@ -20,7 +20,8 @@
 		"alternativesMaintenanceCostCluster",
 		"alternativesComfortCluster",
 		"goal",
-		"cost"
+		"cost",
+		"decision"
 	],
 	"name" : "PracticalDecisionMakingExample",
 	"type" : "normal"

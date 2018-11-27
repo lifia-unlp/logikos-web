@@ -1,8 +1,10 @@
 running
 setUp
 	self
-		prepareNodes;
+		buildGoalNodes;
+		buildDecision;
 		prepareIntermediateComparisons;
+		addAlternatives;
 		prepareComfortComparisons;
 		prepareSafetyComparisons;
 		prepareAestheticsComparisons;
