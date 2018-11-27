@@ -9,7 +9,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"decisions",
-		"rootNodes"
+		"rootNodes",
+		"sharedModels"
 	],
 	"name" : "AHPApplicationModel",
 	"type" : "normal"
