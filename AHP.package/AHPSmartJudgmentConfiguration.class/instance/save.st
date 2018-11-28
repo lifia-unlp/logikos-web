@@ -1,4 +1,4 @@
 callbacks
 save
-	self model smartJudge: criteriaToConfigure with: selectedStrategy. 
+	self model smartJudgementStrategy: selectedStrategy. 
 	self answer

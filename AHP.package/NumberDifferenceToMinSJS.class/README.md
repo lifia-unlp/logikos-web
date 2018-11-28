@@ -1,1 +1,0 @@
-This strategy computes the difference between two numeric alternatives, then divides the result by the largest of them.  Multiplies by 10, adds one, tops at 9.

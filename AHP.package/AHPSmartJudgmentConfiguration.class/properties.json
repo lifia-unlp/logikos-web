@@ -8,7 +8,8 @@
 	"instvars" : [
 		"selectedStrategy",
 		"criteriaToConfigure",
-		"availableStrategies"
+		"availableStrategies",
+		"configurationSubcomponent"
 	],
 	"name" : "AHPSmartJudgmentConfiguration",
 	"type" : "normal"

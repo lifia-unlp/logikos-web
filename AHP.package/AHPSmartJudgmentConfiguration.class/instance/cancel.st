@@ -1,3 +1,3 @@
 callbacks
 cancel
-	self answer
+	self answer: nil

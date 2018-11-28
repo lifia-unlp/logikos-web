@@ -1,3 +1,3 @@
 rendering
 renderSelectedStrategyOn: html
-	selectedStrategy ifNotNil: [ html paragraph: selectedStrategy class comment ]
+	html paragraph: selectedStrategy class comment

@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"isTangible"
+		"isTangible",
+		"smartJudgementStrategy"
 	],
 	"name" : "AHPCriteria",
 	"type" : "normal"

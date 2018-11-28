@@ -1,7 +1,6 @@
 initialization
 goalModel: anObject
 	goalModel := anObject.
-	smartJudgmentStrategies := Dictionary new.
 	title := goalModel name.
 	goalModel name: 'Goal'.
 	description := ''.

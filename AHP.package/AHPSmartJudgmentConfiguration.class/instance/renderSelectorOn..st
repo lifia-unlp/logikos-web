@@ -2,7 +2,7 @@ rendering
 renderSelectorOn: html
 	html heading
 		level: 5;
-		with: 'Smart judgment strategy for ' , criteriaToConfigure name.
+		with: 'Smart judgment strategy for ' , self model name.
 	html
 		paragraph: [ html div
 				tbsDropdown: [ selectedStrategy
@@ -12,15 +12,15 @@ renderSelectorOn: html
 										tbsCaret ] ]
 						ifNotNil: [ html tbsDropdownAnchor
 								with: [ html
-										text: selectedStrategy class humanReadableName;
+										text: selectedStrategy name;
 										tbsCaret ] ].
 					html
 						tbsDropdownMenu: [ (availableStrategies copyWithout: selectedStrategy)
 								do: [ :each | 
 									html
 										tbsDropdownMenuItem: [ html anchor
-												callback: [ selectedStrategy := each ];
-												with: each class humanReadableName ] ].
+												callback: [ self selectStrategy: each ];
+												with: each name ] ].
 							selectedStrategy
 								ifNotNil: [ html tbsDivider.
 									html

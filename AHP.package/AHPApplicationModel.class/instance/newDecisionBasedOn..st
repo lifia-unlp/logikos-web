@@ -1,3 +1,3 @@
 accessing
 newDecisionBasedOn: aRootNode
-	decisions add: (AHPDecision basedOn: aRootNode veryDeepCopy)
+	decisions add: (AHPDecision basedOn: aRootNode cloneWithoutParents)

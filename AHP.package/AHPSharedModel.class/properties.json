@@ -9,8 +9,7 @@
 		"title",
 		"description",
 		"objectType",
-		"goalModel",
-		"smartJudgmentStrategies"
+		"goalModel"
 	],
 	"name" : "AHPSharedModel",
 	"type" : "normal"

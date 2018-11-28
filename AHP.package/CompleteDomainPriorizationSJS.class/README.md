@@ -1,0 +1,1 @@
+This strategy makes a holds a complete weigting (localPriorities) of all possible element in the domain of a criteria.

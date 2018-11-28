@@ -1,3 +1,3 @@
 callbacks
 clearSmartJudgmentStrategyFor: anAHPCriteria
-	self model clearSmartJudgeFor: anAHPCriteria
+	anAHPCriteria smartJudgementStrategy: nil

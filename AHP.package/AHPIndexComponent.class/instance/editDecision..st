@@ -1,3 +1,3 @@
 callbacks
 editDecision: aNode
-	self call: (AHPDecisionEditorComponent model: aNode)
+	self call: (AHPDecisionPlaygroundComponent model: aNode)

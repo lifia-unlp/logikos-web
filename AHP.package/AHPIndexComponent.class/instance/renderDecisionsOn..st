@@ -2,7 +2,7 @@ rendering
 renderDecisionsOn: html
 	html heading
 		level: 3;
-		with: 'Active decisions'.
+		with: 'Decision playground'.
 	html
 		unorderedList: [ self model decisions
 				do: [ :each | 
