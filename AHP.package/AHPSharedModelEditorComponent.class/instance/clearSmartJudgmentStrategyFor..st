@@ -1,0 +1,3 @@
+callbacks
+clearSmartJudgmentStrategyFor: anAHPCriteria
+	self model clearSmartJudgeFor: anAHPCriteria

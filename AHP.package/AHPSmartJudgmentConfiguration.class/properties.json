@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "Casco 11/27/2018 21:29",
+	"super" : "BootstrapComponentSkeleton",
+	"category" : "AHP-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectedStrategy",
+		"criteriaToConfigure",
+		"availableStrategies"
+	],
+	"name" : "AHPSmartJudgmentConfiguration",
+	"type" : "normal"
+}

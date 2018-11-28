@@ -1,0 +1,3 @@
+rendering
+renderConfigurationFormOn: aWAHtmlCanvas 
+	self 

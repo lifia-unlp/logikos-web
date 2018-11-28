@@ -6,4 +6,5 @@ renderMainContentOn: html
 	html
 		tbsForm: [ self renderInputFieldsOn: html.
 			self renderFormButtonsOn: html ].
-	self renderModelCriteriaOn: html
+	self renderModelCriteriaOn: html.
+	self renderSmartJudgmentStrategiesOn: html
