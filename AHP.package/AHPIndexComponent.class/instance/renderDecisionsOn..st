@@ -2,7 +2,8 @@ rendering
 renderDecisionsOn: html
 	html heading
 		level: 3;
-		with: 'Decision playground'.
+		with: '2. Test your models'.
+		html text: 'Test your decision models with concrete alternatives. Explore the aplicability of smart ranking strategies to avoid pair-wise comparison among alternatives.'.
 	html
 		unorderedList: [ self model decisions
 				do: [ :each | 
@@ -13,11 +14,11 @@ renderDecisionsOn: html
 							html anchor
 								callback: [ self editDecision: each ];
 								with: [ html tbsGlyphIcon
-										tbsTooltip: 'Edit this decision';
+										tbsTooltip: 'Edit this test';
 										iconPencil ].
 							html space.
 							html anchor
 								callback: [ self removeDecision: each ];
 								with: [ html tbsGlyphIcon
-										tbsTooltip: 'Trash this decision';
+										tbsTooltip: 'Trash this test';
 										iconTrash ] ] ] ]
