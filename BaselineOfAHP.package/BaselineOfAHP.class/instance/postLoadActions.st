@@ -4,12 +4,16 @@ postLoadActions
 
 	GTPlayground
 		edit:
-			'"To start the server in development mode evaluate 
-the following expresion. The save your image."
-TasksLoggerScriptsRunner prepareForDevelopmentOnPort: 8080 . 	
+			'"Evaluate the following expresion to start the server on port 8080"
+				
+ZnZincServerAdaptor startOn: 8080.
+WAAdmin register: AHPAPI at: ''ahp-api''.
+(WAAdmin register:  AHPLandingComponent  asApplicationAt: ''ahp'')
+      addLibrary: JQDeploymentLibrary;
+      addLibrary:  TBSDeploymentLibrary.
+Smalltalk snapshot: true andQuit: false.
 
-
-"To start the server in DEPLOYMENT mode evaluate 
-the following expresion. Then save your image."
-TasksLoggerScriptsRunner prepareForDeploymentOnPort: 8080 .'
-		label: 'Tycho'
+"You can access your server at http://localhost:8080
+Your access code is ''entrar'' without the single quotes"
+'
+		label: 'Logikos'
