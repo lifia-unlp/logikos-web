@@ -1,3 +1,3 @@
 hooks
 applicationName
-	 ^'AHP'
+	 ^'Logikós Profiles Repository'
