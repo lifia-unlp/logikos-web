@@ -1,1 +1,0 @@
-A comparison of relative importance between two nodes

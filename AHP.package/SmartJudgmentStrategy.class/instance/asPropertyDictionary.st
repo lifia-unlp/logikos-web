@@ -1,3 +1,0 @@
-hooks
-asPropertyDictionary
-	^ self subclassResponsibility

@@ -1,3 +1,0 @@
-accessing
-goalModel
-	^ goalModel

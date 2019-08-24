@@ -1,3 +1,0 @@
-callbacks
-editSmartJudgmentStrategyFor: anAHPCriteria
-	self attachSmartJudgementStrategyTo: anAHPCriteria

@@ -1,3 +1,0 @@
-callbacks
-cancel 
- editing := false.

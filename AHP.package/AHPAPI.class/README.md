@@ -1,1 +1,0 @@
-WAAdmin register: AHPAPI at: 'ahp-api'

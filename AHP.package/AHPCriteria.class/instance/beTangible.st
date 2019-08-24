@@ -1,3 +1,0 @@
-initialization
-beTangible
-	isTangible := true

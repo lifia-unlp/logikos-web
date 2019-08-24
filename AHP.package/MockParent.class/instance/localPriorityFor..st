@@ -1,3 +1,0 @@
-accessing
-localPriorityFor: anAHPNode 
-	^localPriority 

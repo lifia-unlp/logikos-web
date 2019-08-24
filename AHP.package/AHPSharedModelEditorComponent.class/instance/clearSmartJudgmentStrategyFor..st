@@ -1,3 +1,0 @@
-callbacks
-clearSmartJudgmentStrategyFor: anAHPCriteria
-	anAHPCriteria smartJudgementStrategy: nil

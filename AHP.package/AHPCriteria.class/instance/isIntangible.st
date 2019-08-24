@@ -1,3 +1,0 @@
-testing
-isIntangible
-	^ isTangible not
