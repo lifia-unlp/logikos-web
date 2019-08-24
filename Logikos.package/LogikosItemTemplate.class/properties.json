@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Logikos-data-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"favIcon",
+		"urlPattern",
+		"propertySelectors",
+		"itemType",
+		"groups"
+	],
+	"name" : "LogikosItemTemplate",
+	"type" : "normal"
+}

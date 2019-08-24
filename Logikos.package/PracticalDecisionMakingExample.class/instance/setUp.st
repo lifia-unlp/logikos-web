@@ -1,0 +1,12 @@
+running
+setUp
+	self
+		buildGoalNodes;
+		buildDecision;
+		prepareIntermediateComparisons;
+		addAlternatives;
+		prepareComfortComparisons;
+		prepareSafetyComparisons;
+		prepareAestheticsComparisons;
+		prepareMaintenanceCostComparisons;
+		prepareAcquisitionCostComparisons.

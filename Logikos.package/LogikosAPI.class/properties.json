@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Casco 8/23/2019 17:20",
+	"super" : "WARestfulHandler",
+	"category" : "Logikos-API",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LogikosAPI",
+	"type" : "normal"
+}

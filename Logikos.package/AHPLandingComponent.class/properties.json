@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Casco 11/24/2018 16:13",
+	"super" : "BasicLandingComponent",
+	"category" : "Logikos-ahp-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AHPLandingComponent",
+	"type" : "normal"
+}

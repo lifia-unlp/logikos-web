@@ -1,0 +1,4 @@
+accessing
+children
+	^ {preferencesComponent.
+	criteriaHierarchyComponent}

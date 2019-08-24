@@ -1,0 +1,3 @@
+hooks
+comment
+  ^self subclassResponsibility 

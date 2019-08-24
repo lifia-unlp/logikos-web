@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "Casco 11/24/2018 16:34",
+	"super" : "BootstrapComponentSkeleton",
+	"category" : "Logikos-ahp-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"preferencesComponent",
+		"criteriaHierarchyComponent",
+		"inlineEditorComponentForName"
+	],
+	"name" : "AHPModelEditorComponent",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+WAAdmin register: AHPAPI at: 'logikos-api'

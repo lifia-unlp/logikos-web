@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "Logikos-ahp-tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cluster",
+		"cost",
+		"safety",
+		"comfort"
+	],
+	"name" : "TestAHPCluster",
+	"type" : "normal"
+}

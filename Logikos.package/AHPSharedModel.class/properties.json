@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "Casco 11/27/2018 16:32",
+	"super" : "Object",
+	"category" : "Logikos-ahp-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"description",
+		"objectType",
+		"goalModel"
+	],
+	"name" : "AHPSharedModel",
+	"type" : "normal"
+}
