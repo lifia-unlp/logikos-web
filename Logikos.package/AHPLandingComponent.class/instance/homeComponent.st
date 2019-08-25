@@ -1,3 +1,3 @@
 hooks
 homeComponent
-	^ AHPIndexComponent new
+	^ LogikosIndexComponent new

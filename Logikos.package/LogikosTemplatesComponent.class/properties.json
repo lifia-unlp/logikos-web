@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BootstrapComponentSkeleton",
+	"category" : "Logikos-data-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LogikosTemplatesComponent",
+	"type" : "normal"
+}

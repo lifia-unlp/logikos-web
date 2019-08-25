@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "Casco 11/24/2018 16:13",
-	"super" : "BasicLandingComponent",
+	"commentStamp" : "",
+	"super" : "BootstrapComponentSkeleton",
 	"category" : "Logikos-common-web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "AHPLandingComponent",
+	"name" : "LogikosIndexComponent",
 	"type" : "normal"
 }
