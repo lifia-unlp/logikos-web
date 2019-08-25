@@ -6,15 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"favIcon",
-		"urlPattern",
-		"propertySelectors",
-		"itemType",
-		"groups",
-		"id",
-		"owner"
+		"items"
 	],
-	"name" : "LogikosItemTemplate",
+	"name" : "LogikosProject",
 	"type" : "normal"
 }

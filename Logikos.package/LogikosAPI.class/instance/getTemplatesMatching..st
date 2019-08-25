@@ -1,12 +1,13 @@
-ahp-api
-ping
+logikos-api
+getTemplatesMatching: url
 	<get>
-	<path: '/ping'>
-	self requestContext
+	<path: '/templates/matching?url={url}'>
+	
+	^ self requestContext
 		respond: [ :response | 
 			response
 				headerAt: 'Access-Control-Allow-Origin' put: '*';
 				headerAt: 'Access-Control-Allow-Credentials' put: 'true';
 				contentType: WAMimeType applicationJson;
 				status: WAResponse statusOk;
-				nextPutAll: 'pong' ]
+				nextPutAll: (self write: (self logikosApplicationModel templatesMatching: url)) ]

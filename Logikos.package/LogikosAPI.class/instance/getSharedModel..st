@@ -1,4 +1,4 @@
-api
+ahp-api
 getSharedModel: title
 	<get>
 	<path: '/sharedModels/{title}'>

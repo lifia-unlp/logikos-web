@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Logikos-data-web",
+	"classinstvars" : [
+		"singleton"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"types",
+		"templates",
+		"projects"
+	],
+	"name" : "LogikosApplicationModel",
+	"type" : "normal"
+}

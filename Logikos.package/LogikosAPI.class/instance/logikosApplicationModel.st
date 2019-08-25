@@ -1,0 +1,3 @@
+private
+logikosApplicationModel
+	^ LogikosApplicationModel singleton

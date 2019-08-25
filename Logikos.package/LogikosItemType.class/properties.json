@@ -7,14 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"name",
-		"favIcon",
-		"urlPattern",
-		"propertySelectors",
-		"itemType",
-		"groups",
-		"id",
-		"owner"
+		"properties",
+		"lodClass"
 	],
-	"name" : "LogikosItemTemplate",
+	"name" : "LogikosItemType",
 	"type" : "normal"
 }

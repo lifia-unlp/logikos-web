@@ -1,1 +1,1 @@
-WAAdmin register: AHPAPI at: 'logikos-api'
+WAAdmin register: LogikosAPI at: 'logikos-api'
