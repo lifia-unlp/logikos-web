@@ -7,7 +7,7 @@ postLoadActions
 			'"Evaluate the following expresion to start the server on port 8080"
 				
 ZnZincServerAdaptor startOn: 8080.
-WAAdmin register: AHPAPI at: ''logikos-api''.
+WAAdmin register: LogikosAPI at: ''logikos-api''.
 (WAAdmin register:  AHPLandingComponent  asApplicationAt: ''logikos'')
       addLibrary: JQDeploymentLibrary;
       addLibrary:  TBSDeploymentLibrary.
