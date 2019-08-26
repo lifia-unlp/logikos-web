@@ -1,3 +1,3 @@
 accessing
 items
-	^ items
+	^ items values

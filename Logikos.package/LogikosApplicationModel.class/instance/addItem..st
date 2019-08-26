@@ -1,3 +1,3 @@
 accessing
 addItem: anItem
-	items add: anItem
+	items at: anItem url put: anItem

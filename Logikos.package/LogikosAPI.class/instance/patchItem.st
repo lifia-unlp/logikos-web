@@ -3,7 +3,6 @@ patchItem
 	<patch>
 	<path: '/items'>
 	| item |
-	self halt.
 	item := self
 		read: self requestContext request rawBody
 		as: LogikosItem.
