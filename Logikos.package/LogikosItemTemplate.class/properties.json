@@ -13,7 +13,8 @@
 		"itemType",
 		"groups",
 		"id",
-		"owner"
+		"owner",
+		"sampleItem"
 	],
 	"name" : "LogikosItemTemplate",
 	"type" : "normal"

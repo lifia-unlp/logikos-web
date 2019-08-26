@@ -8,9 +8,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"types",
 		"templates",
-		"projects"
+		"items"
 	],
 	"name" : "LogikosApplicationModel",
 	"type" : "normal"

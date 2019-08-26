@@ -6,10 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"properties",
-		"lodClass"
+		"owner",
+		"url",
+		"type",
+		"groups",
+		"properties"
 	],
-	"name" : "LogikosItemType",
+	"name" : "LogikosItem",
 	"type" : "normal"
 }
