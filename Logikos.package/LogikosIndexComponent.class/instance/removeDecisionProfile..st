@@ -1,0 +1,3 @@
+callbacks
+removeDecisionProfile: aLogikosDecisionProfile 
+	LogikosApplicationModel singleton removeDecisionProfile: aLogikosDecisionProfile

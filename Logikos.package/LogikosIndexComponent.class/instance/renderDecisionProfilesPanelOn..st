@@ -13,11 +13,15 @@ renderDecisionProfilesPanelOn: html
 						unorderedList: [ LogikosApplicationModel singleton decisionProfiles
 								do: [ :profile | 
 									html
-										listItem: [ html text: profile title.
+										listItem: [ html text: profile name.
 											html space.
 											html anchor
 												callback: [ self editDecisionProfile: profile ];
-												with: [ html tbsGlyphIcon iconPencil ] ] ].
+												with: [ html tbsGlyphIcon iconPencil ].
+											html space.
+											html anchor
+												callback: [ self removeDecisionProfile: profile ];
+												with: [ html tbsGlyphIcon iconTrash ] ] ].
 							html anchor
 								callback: [ self addNewDecisionProfile ];
 								with: 'New...' ] ] ]

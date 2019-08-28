@@ -6,7 +6,11 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"profile"
+		"profile",
+		"preferencesComponent",
+		"inlineEditorComponentForName",
+		"name",
+		"criteriaHierarchyComponent"
 	],
 	"name" : "LogikosDecisionProfileEditorComponent",
 	"type" : "normal"

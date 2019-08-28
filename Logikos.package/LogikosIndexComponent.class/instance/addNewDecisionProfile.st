@@ -2,6 +2,6 @@ callbacks
 addNewDecisionProfile
 	LogikosApplicationModel singleton
 		addDecisionProfile:
-			(AHPSharedModel new
-				title: 'Untitled profile';
+			(LogikosDecisionProfile new
+				name: 'Untitled profile';
 				yourself)
