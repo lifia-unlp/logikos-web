@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Anonymous 11/28/2018 08:42",
+	"super" : "SmartJudgmentStrategy",
+	"category" : "AHP-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"largerIsBetter"
+	],
+	"name" : "NormalizedDifferenceSJS",
+	"type" : "normal"
+}

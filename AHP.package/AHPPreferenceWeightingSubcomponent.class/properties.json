@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Casco 11/24/2018 19:21",
+	"super" : "BootstrapSubComponentSkeleton",
+	"category" : "AHP-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"node"
+	],
+	"name" : "AHPPreferenceWeightingSubcomponent",
+	"type" : "normal"
+}

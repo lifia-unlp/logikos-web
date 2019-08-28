@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Logikos-data-model",
+	"category" : "Logikos-model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

@@ -8,10 +8,16 @@ renderDecisionProfilesPanelOn: html
 			html
 				tbsPanelBody: [ html
 						paragraph:
-							'Decision profiles are reusable strategies to compare items considering multiple dimensions at once. You define profiles to use them in projects'.
-					html anchor
-						callback: [ self call: AHPIndexComponent new ];
-						with: [ html tbsButton
-								beDefault;
-								beSmall;
-								with: 'Work with profiles' ] ] ]
+							'Decision profiles are reusable strategies to compare items considering multiple dimensions at once. These are the available profiles:'.
+					html
+						unorderedList: [ LogikosApplicationModel singleton decisionProfiles
+								do: [ :profile | 
+									html
+										listItem: [ html text: profile title.
+											html space.
+											html anchor
+												callback: [ self editDecisionProfile: profile ];
+												with: [ html tbsGlyphIcon iconPencil ] ] ].
+							html anchor
+								callback: [ self addNewDecisionProfile ];
+								with: 'New...' ] ] ]

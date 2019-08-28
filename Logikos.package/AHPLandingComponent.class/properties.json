@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "Casco 11/24/2018 16:13",
 	"super" : "BasicLandingComponent",
-	"category" : "Logikos-common-web",
+	"category" : "Logikos-web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

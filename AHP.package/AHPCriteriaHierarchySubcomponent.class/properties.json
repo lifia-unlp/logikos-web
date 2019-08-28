@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "Casco 11/24/2018 23:48",
+	"super" : "BootstrapSubComponentSkeleton",
+	"category" : "AHP-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"node",
+		"readOnly"
+	],
+	"name" : "AHPCriteriaHierarchySubcomponent",
+	"type" : "normal"
+}

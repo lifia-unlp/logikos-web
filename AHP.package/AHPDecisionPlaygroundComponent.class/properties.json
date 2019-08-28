@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "Casco 11/24/2018 18:18",
+	"super" : "BootstrapComponentSkeleton",
+	"category" : "AHP-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"preferenceWeightingComponent",
+		"inlineEditorComponentForName",
+		"selectedLeafNode",
+		"autoRankingSubcomponent"
+	],
+	"name" : "AHPDecisionPlaygroundComponent",
+	"type" : "normal"
+}

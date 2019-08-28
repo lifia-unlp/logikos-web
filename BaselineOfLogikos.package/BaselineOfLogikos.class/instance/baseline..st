@@ -9,7 +9,9 @@ baseline: spec
 				bootstrapSkeleton: spec;
 				neoJSON: spec.
 			spec
-				package: 'Logikos'
+				package: 'AHP'
 				with: [ spec
-						requires: #('Seaside3' 'Seaside-REST-Core' 'Bootstrap' 'Bootstrap-Skeleton' 'NeoJSON') ].
+						requires:
+							#('Seaside3' 'Seaside-REST-Core' 'Bootstrap' 'Bootstrap-Skeleton' 'NeoJSON') ].
+			spec package: 'Logikos' with: [ spec requires: #('AHP') ].
 			spec postLoadDoIt: #postLoadActions ]

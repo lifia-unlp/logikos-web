@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "Casco 11/25/2018 16:47",
 	"super" : "Object",
-	"category" : "Logikos-model",
+	"category" : "AHP-model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"items"
+		"valueBlock"
 	],
-	"name" : "LogikosProject",
+	"name" : "SmartJudgmentStrategy",
 	"type" : "normal"
 }

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "Casco 11/24/2018 15:48",
+	"super" : "Object",
+	"category" : "AHP-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nodeA",
+		"nodeB",
+		"judgment"
+	],
+	"name" : "AHPPairwiseComparison",
+	"type" : "normal"
+}

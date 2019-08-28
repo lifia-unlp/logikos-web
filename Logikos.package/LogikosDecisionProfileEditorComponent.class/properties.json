@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "LogikosIndexComponent",
+	"instvars" : [
+		"profile"
+	],
+	"name" : "LogikosDecisionProfileEditorComponent",
 	"type" : "normal"
 }

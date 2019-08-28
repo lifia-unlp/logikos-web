@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Casco 11/28/2018 08:44",
+	"super" : "SmartJudgmentStrategy",
+	"category" : "AHP-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model"
+	],
+	"name" : "CompleteDomainPriorizationSJS",
+	"type" : "normal"
+}

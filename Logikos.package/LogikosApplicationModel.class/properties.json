@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Logikos-data-web",
+	"category" : "Logikos-web",
 	"classinstvars" : [
 		"singleton"
 	],
