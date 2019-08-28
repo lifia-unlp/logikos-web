@@ -9,7 +9,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"templates",
-		"items"
+		"items",
+		"decisionProfiles"
 	],
 	"name" : "LogikosApplicationModel",
 	"type" : "normal"

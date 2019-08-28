@@ -1,4 +1,5 @@
 initialization
 initialize
 	templates := OrderedCollection new.
-	items := Dictionary new
+	items := Dictionary new.
+	decisionProfiles := OrderedCollection new
