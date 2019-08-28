@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "AHPLandingComponent",
+	"name" : "LogikosLandingComponent",
 	"type" : "normal"
 }

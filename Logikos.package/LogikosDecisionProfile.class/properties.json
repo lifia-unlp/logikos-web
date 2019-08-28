@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Logikos-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"comments",
+		"model"
+	],
+	"name" : "LogikosDecisionProfile",
+	"type" : "normal"
+}

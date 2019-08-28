@@ -8,10 +8,12 @@ postLoadActions
 				
 ZnZincServerAdaptor startOn: 8080.
 WAAdmin register: LogikosAPI at: ''logikos-api''.
-(WAAdmin register:  AHPLandingComponent  asApplicationAt: ''logikos'')
+(WAAdmin register:  LogikosIndexComponent  asApplicationAt: ''logikos'')
       addLibrary: JQDeploymentLibrary;
       addLibrary:  TBSDeploymentLibrary.
-Smalltalk snapshot: true andQuit: false.
+(WAAdmin register:  AHPIndexComponent  asApplicationAt: ''AHP'')
+      addLibrary: JQDeploymentLibrary;
+      addLibrary:  TBSDeploymentLibrary.
 
 "You can access your server at http://localhost:8080/logikos
 Your access code is ''entrar'' without the single quotes"
