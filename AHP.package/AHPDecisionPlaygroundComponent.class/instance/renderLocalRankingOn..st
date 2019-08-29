@@ -2,9 +2,9 @@ rendering
 renderLocalRankingOn: html
 	html heading
 		level: 5;
-		with: 'Local ranking'.
+		with: 'Ranking in terms of ' , selectedLeafNode name.
 	html
-		unorderedList: [ (self model alternatives
+		orderedList: [ (self model alternatives
 				asSortedCollection: [ :earlier :later | 
 					(self localPriorityStringFor: earlier)
 						> (self localPriorityStringFor: later) ])

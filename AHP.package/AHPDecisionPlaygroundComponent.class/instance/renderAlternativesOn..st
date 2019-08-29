@@ -2,9 +2,10 @@ rendering
 renderAlternativesOn: html
 	html heading
 		level: 4;
-		with: 'Alternatives'.
+		with: 'Suggested ranking of alternatives'.
 	html
-		unorderedList: [ self model alternatives
+		orderedList: [ (self model alternatives
+				asSortedCollection: [ :earlier :later | earlier overallPriority > later overallPriority ])
 				do: [ :each | 
 					html
 						listItem: [ html text: each name.
@@ -22,7 +23,8 @@ renderAlternativesOn: html
 								with: [ html tbsGlyphIcon
 										tbsTooltip: 'Trash this alternative';
 										iconTrash ] ] ].
-			self allowsNew ifTrue: [html
-				listItem: [ html anchor
-						callback: [ self addNewAlternative ];
-						with: 'New ...' ]] ]
+			self allowsNew
+				ifTrue: [ html
+						listItem: [ html anchor
+								callback: [ self addNewAlternative ];
+								with: 'New ...' ] ] ]
