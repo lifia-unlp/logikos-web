@@ -21,7 +21,11 @@ renderDecisionProfilesPanelOn: html
 											html space.
 											html anchor
 												callback: [ self removeDecisionProfile: profile ];
-												with: [ html tbsGlyphIcon iconTrash ] ] ] ].
+												with: [ html tbsGlyphIcon iconTrash ].
+											html space.
+											html anchor
+												callback: [ self useDecisionProfile: profile ];
+												with: [ html tbsGlyphIcon iconDownloadAlt ] ] ] ].
 					html
 						paragraph: [ html anchor
 								callback: [ self addNewDecisionProfileFromItems ];

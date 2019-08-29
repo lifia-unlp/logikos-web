@@ -1,0 +1,3 @@
+callbacks
+removeDecision: anAHPDecision
+	LogikosApplicationModel singleton removeDecision: anAHPDecision

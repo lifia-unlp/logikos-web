@@ -10,7 +10,8 @@
 	"instvars" : [
 		"templates",
 		"items",
-		"decisionProfiles"
+		"decisionProfiles",
+		"decisions"
 	],
 	"name" : "LogikosApplicationModel",
 	"type" : "normal"

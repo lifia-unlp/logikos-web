@@ -1,6 +1,6 @@
 rendering
 renderPreferenceJudgmentBetween: firstNode and: secondNode at: aParentNode on: html
-	html text: firstNode name.
+	html text: (self labelForNode: firstNode).
 	html space.
 	(1 to: 9) reversed
 		do: [ :i | 
@@ -17,4 +17,4 @@ renderPreferenceJudgmentBetween: firstNode and: secondNode at: aParentNode on: h
 					callback: [ aParentNode compare: secondNode to: firstNode by: i ];
 					with: i printString ].
 		html space ].
-	html text: secondNode name
+	html text: (self labelForNode: secondNode)

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "AHPPreferenceWeightingSubcomponent",
+	"category" : "Logikos-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"criteria"
+	],
+	"name" : "LogikosPreferenceWeightingSubcomponent",
+	"type" : "normal"
+}
