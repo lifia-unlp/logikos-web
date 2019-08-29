@@ -1,10 +1,10 @@
-rendering
+hooks
 renderCriteriaOn: html
-	self model parents
-		ifEmpty: [ html heading
-				level: 4;
-				with: 'Criteria' ]
-		ifNotEmpty: [ html heading
-				level: 4;
-				with: 'Sub-criteria' ].
-	html render: criteriaHierarchyComponent
+	super renderCriteriaOn: html.
+	html
+		paragraph: [ html
+				text:
+					'Items you collected have the following properties, not mentioned in criteria: '.
+			self unmentionedPropertyNamesUsedInItems
+				do: [ :propertyName | html text: propertyName ]
+				separatedBy: [ html text: ', ' ] ]

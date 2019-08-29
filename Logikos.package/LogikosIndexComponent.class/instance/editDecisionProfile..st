@@ -1,7 +1,7 @@
 callbacks
 editDecisionProfile: profile
 	| editor |
-	editor := LogikosDecisionProfileEditorComponent on: profile.
+	editor := LogikosDecisionProfileEditorComponent model: profile.
 	self show: editor.
 	
 	

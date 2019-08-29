@@ -1,17 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "BootstrapComponentSkeleton",
+	"super" : "AHPModelEditorComponent",
 	"category" : "Logikos-web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"profile",
-		"preferencesComponent",
-		"inlineEditorComponentForName",
-		"name",
-		"criteriaHierarchyComponent"
-	],
+	"instvars" : [ ],
 	"name" : "LogikosDecisionProfileEditorComponent",
 	"type" : "normal"
 }

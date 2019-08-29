@@ -1,14 +1,12 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "AHPNode",
 	"category" : "Logikos-model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"comments",
-		"model"
+		"comments"
 	],
 	"name" : "LogikosDecisionProfile",
 	"type" : "normal"
