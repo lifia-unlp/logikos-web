@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "BootstrapComponentSkeleton",
+	"super" : "WAComponent",
 	"category" : "Logikos-web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"itemsTableSubcomponent"
+		"model"
 	],
-	"name" : "LogikosIndexComponent",
+	"name" : "LogikosItemsTableSubcomponent",
 	"type" : "normal"
 }
