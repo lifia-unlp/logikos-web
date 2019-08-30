@@ -2,4 +2,6 @@ singleton
 fuelIn
 	<script>
 	singleton := (FLMaterializer
-		materializationFromFileNamed: 'logikosApplicationModel.fuel') root
+		materializationFromFileNamed:
+			'pharo-local/iceberg/logikos-web/logikos/examples/logikosApplicationModel.fuel')
+		root

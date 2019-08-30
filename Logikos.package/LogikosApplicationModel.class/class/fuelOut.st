@@ -3,4 +3,4 @@ fuelOut
 	<script>
 	FLSerializer
 		serialize: singleton
-		toFileNamed: 'logikosApplicationModel.fuel'
+		toFileNamed: 'pharo-local/iceberg/logikos-web/logikos/examples/logikosApplicationModel.fuel'
