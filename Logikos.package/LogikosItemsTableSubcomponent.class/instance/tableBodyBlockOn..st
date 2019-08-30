@@ -11,6 +11,6 @@ tableBodyBlockOn: html
 									cleaningEnabledForColumn = prop
 										ifTrue: [ html textInput
 												callback: [ :newValue | item properties at: prop put: newValue ];
-												with: value ]
+												with: value copyWithoutConsecutiveSpaceSeparators ]
 										ifFalse: [ html text: value ] ] ].
 					html tableData: [ self renderActionsFor: item on: html ] ] ] ]

@@ -5,10 +5,10 @@ copyWithoutConsecutiveSpaceSeparators
 	stream := String new writeStream.
 	self
 		do: [ :char | 
-			char isSpaceSeparator
+			char isSeparator
 				ifFalse: [ sawSpace := false.
 					stream nextPut: char ]
 				ifTrue: [ sawSpace
 						ifFalse: [ sawSpace := true.
-							stream nextPut: char ] ] ].
+							stream nextPut: Character space ] ] ].
 	^ stream contents
