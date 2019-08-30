@@ -4,16 +4,19 @@ tableHeadBlockOn: html
 		do: [ :prop | 
 			html tableHeading
 				with: [ html text: prop.
-					html space.
 					cleaningEnabledForColumn = prop
-						ifFalse: [ html anchor
+						ifFalse: [ html space.
+							html anchor
 								callback: [ cleaningEnabledForColumn := prop ];
 								with: [ html tbsGlyphIcon iconWrench ] ]
-						ifTrue: [ html anchor
+						ifTrue: [ html break.
+							html tbsButton
+								beExtraSmall;
 								callback: [ cleaningEnabledForColumn := nil ];
-								with: [ html tbsGlyphIcon iconOkCircle ].
+								with: 'confirm'.
 							html space.
-							html anchor
+							html tbsButton
+								beExtraSmall;
 								callback: [ cleaningEnabledForColumn := nil ];
-								with: [ html tbsGlyphIcon iconRemoveCircle ] ] ] ].
+								with: 'cancel' ] ] ].
 	html tableHeading: '' ]
