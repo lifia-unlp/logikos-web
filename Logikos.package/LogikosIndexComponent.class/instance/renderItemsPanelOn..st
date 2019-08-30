@@ -4,8 +4,15 @@ renderItemsPanelOn: html
 		with: [ html
 				tbsPanelHeading: [ html tbsPanelTitle
 						level: 3;
-						with: 'Items' ].
+						with: 'Collected items' ].
 			html
 				tbsPanelBody: [ html
-						paragraph: 'These are the items you collected using the available templates'.
+						paragraph: [ html
+								text:
+									'You collect items from web sites with your (Chrome) web browser and '.
+							html anchor
+								url: '';
+								target: '_new';
+								with: 'a web extension.'.
+							html text: ' These are the items you have collected so far:' ].
 					self renderItemsTableOn: html ] ]
