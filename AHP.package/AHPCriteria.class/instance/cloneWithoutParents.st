@@ -1,5 +1,7 @@
 cloning
 cloneWithoutParents
-	^ super cloneWithoutParents
-		isTangible: isTangible;
-		yourself
+	| myClone |
+	myClone := super cloneWithoutParents.
+	myClone isTangible: isTangible.
+	myClone smartJudgementStrategy: smartJudgementStrategy copy.
+	^ myClone

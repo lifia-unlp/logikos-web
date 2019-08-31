@@ -1,0 +1,3 @@
+utility
+smartJudge
+	smartJudgementStrategy smartJudge: self
