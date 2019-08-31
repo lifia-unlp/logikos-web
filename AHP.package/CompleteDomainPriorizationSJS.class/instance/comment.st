@@ -1,3 +1,8 @@
 hooks
 comment
-	^'This strategy computes the difference between two numeric alternatives, then divides the result by the smallest of them.  The result is converted to the scale 1 to 9. There is nothing to configure.'
+	^ model nodes
+		ifEmpty:
+			[ 'This strategy holds a predefined pairwise comparisson of all possible values for the property. Is has not been configured yet.' ]
+		ifNotEmpty:
+			[ 'This strategy holds a predefined pairwise comparisson of all possible values for the property. It has been configured as follows: '
+				, self localPrioritiesSummaryString ]
