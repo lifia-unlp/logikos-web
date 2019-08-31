@@ -1,3 +1,3 @@
 rendering
 renderSelectedStrategyOn: html
-	html paragraph: selectedStrategy class comment
+	html paragraph: selectedStrategy comment

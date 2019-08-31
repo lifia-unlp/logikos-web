@@ -1,3 +1,7 @@
 hooks
 comment
-	^ 'This strategy computes the difference between two numeric alternatives, then divides the result by the smallest of them.  The result is converted to the scale 1 to 9. There is nothing to configure.'
+	^ 'This strategy compares values as numbers paying attention to their magnitues and differences. '
+		,
+			(largerIsBetter
+				ifTrue: [ 'Larger values are better' ]
+				ifFalse: [ 'Smaller values are better' ])
