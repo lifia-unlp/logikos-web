@@ -1,3 +1,3 @@
-rendering
+moving
 smartJudgementIsAvailable
 	^ selectedLeafNode smartJudgementIsAvailable

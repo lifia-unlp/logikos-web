@@ -1,0 +1,3 @@
+callbacks
+autorank
+	node smartJudge

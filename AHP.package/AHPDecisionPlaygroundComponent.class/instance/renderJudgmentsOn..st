@@ -6,5 +6,4 @@ renderJudgmentsOn: html
 	self
 		renderLeafNodeSelectorTabOn: html;
 		renderJudmentsForSelectedNodeOn: html;
-		renderAutoRankingOn: html;
 		renderLocalRankingOn: html

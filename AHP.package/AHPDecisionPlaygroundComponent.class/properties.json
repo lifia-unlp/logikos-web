@@ -10,7 +10,7 @@
 		"preferenceWeightingComponent",
 		"inlineEditorComponentForName",
 		"selectedLeafNode",
-		"autoRankingSubcomponent"
+		"allowsNew"
 	],
 	"name" : "AHPDecisionPlaygroundComponent",
 	"type" : "normal"

@@ -23,7 +23,7 @@ renderAlternativesOn: html
 								with: [ html tbsGlyphIcon
 										tbsTooltip: 'Trash this alternative';
 										iconTrash ] ] ].
-			self allowsNew
+			allowsNew
 				ifTrue: [ html
 						listItem: [ html anchor
 								callback: [ self addNewAlternative ];

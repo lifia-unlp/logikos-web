@@ -1,5 +1,5 @@
 rendering
-renderJudmentsForSelectedNodeOn: html
+renderHeadingOn: html
 	html heading
 		level: 5;
 		with: [ html text: 'Relative preferences '.
@@ -7,6 +7,4 @@ renderJudmentsForSelectedNodeOn: html
 				ifTrue: [ html anchor
 						callback: [ self autorank ];
 						title: 'Click for a suggestion!';
-						with: [ html tbsGlyphIcon iconExclamationSign ] ] ].
-	preferenceWeightingComponent node: selectedLeafNode.
-	html render: preferenceWeightingComponent
+						with: [ html tbsGlyphIcon iconExclamationSign ] ] ]

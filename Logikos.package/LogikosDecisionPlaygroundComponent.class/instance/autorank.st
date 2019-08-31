@@ -1,3 +1,0 @@
-callbacks
-autorank
-	selectedLeafNode smartJudge.
