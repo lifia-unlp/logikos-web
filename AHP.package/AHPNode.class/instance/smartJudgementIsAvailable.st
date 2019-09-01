@@ -1,0 +1,3 @@
+testing
+smartJudgementIsAvailable
+	^ false

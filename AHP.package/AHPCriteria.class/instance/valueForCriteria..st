@@ -1,0 +1,3 @@
+accesing
+valueForCriteria: aString
+	^ nil
