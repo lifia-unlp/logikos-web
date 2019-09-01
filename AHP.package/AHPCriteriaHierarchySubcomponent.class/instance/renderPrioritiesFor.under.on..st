@@ -1,6 +1,7 @@
 rendering
 renderPrioritiesFor: aNode under: parentNode on: html
-
+	displayPriorities
+		ifFalse: [ ^ self ].
 	html
 		text: '(';
 		text: 'LP:';

@@ -9,6 +9,7 @@ model: aNode
 	criteriaHierarchyComponent := (AHPCriteriaHierarchySubcomponent
 		parent: self)
 		node: aNode;
+		displayPriorities: false;
 		yourself.
 	inlineEditorComponentForName := AHPInlinePropertySubcomponent
 		object: aNode

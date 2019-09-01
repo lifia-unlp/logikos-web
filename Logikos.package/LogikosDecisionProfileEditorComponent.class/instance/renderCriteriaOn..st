@@ -5,12 +5,11 @@ renderCriteriaOn: html
 				tbsColumn: [ self renderLocalPrioritiesAsPieChartOn: html ]
 				mediumSize: 6.
 			html
-				tbsColumn: [ html render: criteriaHierarchyComponent.
+				tbsColumn: [ html
+						paragraph:
+							'This decision profiles considers the following criteria. The numbers in parenthesis indicate how important each of them is.'.
+					html render: criteriaHierarchyComponent.
 					html
-						paragraph: [ html
-								text:
-									'Items you collected have the following properties, not mentioned in criteria: '.
-							self unmentionedPropertyNamesUsedInItems
-								do: [ :propertyName | html text: propertyName ]
-								separatedBy: [ html text: ', ' ] ] ]
+						paragraph:
+							[ self renderUnmentionedPropertiesNoticeOn: html ] ]
 				mediumSize: 6 ]

@@ -1,0 +1,3 @@
+accessing
+displayPriorities
+	^ displayPriorities
