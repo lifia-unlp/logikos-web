@@ -4,5 +4,6 @@ initialize
 	readOnly := false.
 	pieChartSubcomponent := PieChartSubComponent
 		new
-		height: 200;
+		height: 300;
+		width: 400;
 		yourself

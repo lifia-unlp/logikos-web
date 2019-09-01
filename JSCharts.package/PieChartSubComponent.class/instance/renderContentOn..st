@@ -4,4 +4,5 @@ renderContentOn: html
 		id: 'piechart';
 		style:
 			'width: ' , width printString , 'px; height: ' , height printString
-				, 'px;'
+				, 'px;'.
+	html script: self js
