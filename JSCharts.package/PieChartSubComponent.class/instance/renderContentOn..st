@@ -1,6 +1,5 @@
 rendering
 renderContentOn: html
-	html heading: 'Hello'.
 	html div
 		id: 'piechart';
 		style:

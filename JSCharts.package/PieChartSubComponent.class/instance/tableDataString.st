@@ -9,7 +9,7 @@ tableDataString
 		keysAndValuesDo: [ :k :v | 
 			stream
 				nextPutAll: ',[''';
-				nextPutAll: k;
+				nextPutAll: k name;
 				nextPutAll: ''',';
 				nextPutAll: v printString;
 				nextPutAll: ']' ].

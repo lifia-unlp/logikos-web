@@ -1,4 +1,8 @@
 initialization
 initialize
 	super initialize.
-	readOnly := false
+	readOnly := false.
+	pieChartSubcomponent := PieChartSubComponent
+		new
+		height: 200;
+		yourself
