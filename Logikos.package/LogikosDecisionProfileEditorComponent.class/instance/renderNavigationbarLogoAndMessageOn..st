@@ -5,4 +5,4 @@ renderNavigationbarLogoAndMessageOn: html
 				tbsPullLeft;
 				style: 'padding: 10px;';
 				url: BootstrapSkeletonFileLibrary / #logikoslogoPng.
-			html tbsNavbarBrand with: 'Logikós' ]
+			html tbsNavbarBrand with: 'Logikós: Editing a decision profile' ]

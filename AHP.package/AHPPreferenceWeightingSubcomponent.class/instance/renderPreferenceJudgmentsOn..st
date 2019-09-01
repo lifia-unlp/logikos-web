@@ -3,7 +3,8 @@ renderPreferenceJudgmentsOn: html
 	| nodes |
 	html tbsTable
 		beBordered;
-		with: [ html
+		with: [ html tableHead: [ self renderTableHeadingOn: html. ].
+			html
 				tableBody: [ nodes := node nodes asSortedCollection: [ :a :b | a name < b name ].
 					nodes size > 1
 						ifTrue: [ 1 to: nodes size do: [ :i | 
