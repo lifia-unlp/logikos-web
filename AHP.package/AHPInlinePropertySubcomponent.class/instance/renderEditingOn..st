@@ -9,12 +9,15 @@ renderEditingOn: html
 						on: #value of: self;
 						tbsFormControl;
 						id: 'property' ].
-			html tbsButton
-				callback: [ self save ];
-				beExtraSmall;
-				with: 'Save'.
-			html space.
-			html tbsButton
-				callback: [ self cancel ];
-				beExtraSmall;
-				with: 'Cancel' ]
+			html
+				paragraph: [ html tbsButton
+						callback: [ self save ];
+						beDefault;
+						beExtraSmall;
+						with: 'Save'.
+					html space.
+					html tbsButton
+						callback: [ self cancel ];
+						beDefault;
+						beExtraSmall;
+						with: 'Cancel' ] ]
