@@ -1,11 +1,18 @@
 {
 	"commentStamp" : "",
-	"super" : "AHPModelEditorComponent",
+	"super" : "BootstrapComponentSkeleton",
 	"category" : "Logikos-web",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"pieChartSubcomponent",
+		"name",
+		"preferencesComponent",
+		"criteriaHierarchyComponent",
+		"inlineEditorComponentForName",
+		"inlineEditorComponentForComments"
+	],
 	"name" : "LogikosDecisionProfileEditorComponent",
 	"type" : "normal"
 }
