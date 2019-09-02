@@ -1,4 +1,4 @@
 accessing
 valueForCriteria: aString
 	^ object
-		ifNotNil: [ object properties at: aString ifAbsent: [ nil ] ]
+		ifNotNil: [ object at: aString ifAbsent: [ nil ] ]

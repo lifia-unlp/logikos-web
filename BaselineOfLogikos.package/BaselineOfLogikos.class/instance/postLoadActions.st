@@ -11,9 +11,7 @@ WAAdmin register: LogikosAPI at: ''logikos-api''.
 (WAAdmin register:  LogikosIndexComponent  asApplicationAt: ''logikos'')
       addLibrary: JQDeploymentLibrary;
       addLibrary:  TBSDeploymentLibrary.
-(WAAdmin register:  AHPIndexComponent  asApplicationAt: ''AHP'')
-      addLibrary: JQDeploymentLibrary;
-      addLibrary:  TBSDeploymentLibrary.
+LogikosApplicationModel fuelIn.
 
 "You can access your server at http://localhost:8080/logikos
 Your access code is ''entrar'' without the single quotes"
