@@ -18,4 +18,5 @@ model: aNode
 	inlineEditorComponentForComments := AHPInlinePropertySubcomponent
 		object: aNode
 		selector: #comments
-		label: 'Comments'
+		label: 'Comments'.
+		inlineEditorComponentForComments textArea: true.

@@ -1,4 +1,4 @@
-hooks
+rendering
 renderNavigationbarLogoAndMessageOn: html
 	html
 		tbsNavbarHeader: [ html image

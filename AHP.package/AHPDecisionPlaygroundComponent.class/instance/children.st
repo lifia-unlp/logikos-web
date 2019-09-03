@@ -1,5 +1,3 @@
-accessing
+rendering
 children
-	^ {preferenceWeightingComponent.
-	inlineEditorComponentForNotes.
-	inlineEditorComponentForName}
+	^ {pieChartSubcomponent}

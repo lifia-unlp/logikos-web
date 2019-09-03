@@ -11,7 +11,8 @@
 		"inlineEditorComponentForName",
 		"selectedLeafNode",
 		"allowsNew",
-		"inlineEditorComponentForNotes"
+		"inlineEditorComponentForNotes",
+		"pieChartSubcomponent"
 	],
 	"name" : "AHPDecisionPlaygroundComponent",
 	"type" : "normal"

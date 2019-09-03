@@ -2,8 +2,9 @@ rendering
 renderMainContentOn: html
 	html heading
 		level: 3;
-		with: 'Decision playground'.
+		with: 'Making a decision'.
 	self
 		renderEditFormOn: html;
-		renderAlternativesOn: html;
-		renderJudgmentsOn: html.
+		renderProfileSummaryOn: html;
+		renderJudgmentsOn: html;
+		renderAlternativesOn: html

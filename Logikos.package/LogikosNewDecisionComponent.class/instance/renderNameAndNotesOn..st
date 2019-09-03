@@ -8,7 +8,7 @@ renderNameAndNotesOn: html
 	html
 		tbsFormGroup: [ html label
 				for: 'decisionName';
-				with: 'Decision name'.
+				with: 'Decision title'.
 			html textInput
 				tbsFormControl;
 				id: 'decisionName';
@@ -18,7 +18,7 @@ renderNameAndNotesOn: html
 		tbsFormGroup: [ html label
 				for: 'decisionNotes';
 				with: 'Notes'.
-			html textInput
+			html textArea
 				tbsFormControl;
 				id: 'decisionNotes';
 				on: #notes of: self;

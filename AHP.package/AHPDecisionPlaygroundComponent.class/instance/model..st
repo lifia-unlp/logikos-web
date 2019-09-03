@@ -1,4 +1,4 @@
-accessing
+initialization
 model: aDecision
 	super model: aDecision.
 	name := aDecision name.
@@ -7,7 +7,7 @@ model: aDecision
 	inlineEditorComponentForName := AHPInlinePropertySubcomponent
 		object: aDecision
 		selector: #name
-		label: 'Name'.
+		label: 'Decision title'.
 	inlineEditorComponentForNotes := AHPInlinePropertySubcomponent
 		object: aDecision
 		selector: #notes
