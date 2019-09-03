@@ -14,6 +14,4 @@ renderTemplatesPanelOn: html
 								url: '';
 								target: '_new';
 								with: 'a web extension' ].
-					html
-						unorderedList: [ LogikosApplicationModel singleton templates
-								do: [ :each | html listItem: [ html text: each ] ] ] ] ]
+					html render: templatesTableSubcomponent ] ]
