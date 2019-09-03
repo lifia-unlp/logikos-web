@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "AHPDecisionPlaygroundComponent",
+	"category" : "Logikos-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LogikosDecisionPlaygroundComponent",
+	"type" : "normal"
+}

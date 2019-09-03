@@ -10,7 +10,8 @@
 		"preferenceWeightingComponent",
 		"inlineEditorComponentForName",
 		"selectedLeafNode",
-		"allowsNew"
+		"allowsNew",
+		"inlineEditorComponentForNotes"
 	],
 	"name" : "AHPDecisionPlaygroundComponent",
 	"type" : "normal"

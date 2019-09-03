@@ -3,6 +3,6 @@ proceed
 	profile
 		ifNotNil: [ self
 				show:
-					((AHPDecisionPlaygroundComponent model: self createAndAddDecision)
+					((LogikosDecisionPlaygroundComponent model: self createAndAddDecision)
 						allowsNew: false;
 						yourself) ]

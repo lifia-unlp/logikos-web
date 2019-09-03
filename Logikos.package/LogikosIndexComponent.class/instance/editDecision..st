@@ -2,6 +2,6 @@ callbacks
 editDecision: anAHPDecision
 	self
 		call:
-			((AHPDecisionPlaygroundComponent model: anAHPDecision)
+			((LogikosDecisionPlaygroundComponent model: anAHPDecision)
 				allowsNew: false;
 				yourself)
