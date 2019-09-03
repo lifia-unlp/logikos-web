@@ -7,4 +7,4 @@ initialize
 	templatesTableSubcomponent := LogikosTemplatesTableSubcomponent new
 		model: LogikosApplicationModel singleton;
 		yourself.
-	selectedTab := #renderItemsAndDecisionsTabOn:
+	selectedTab := #renderItemsTabOn:
