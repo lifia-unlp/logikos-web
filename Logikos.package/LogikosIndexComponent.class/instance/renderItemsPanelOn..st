@@ -1,4 +1,4 @@
-rendering
+rendering-items
 renderItemsPanelOn: html
 	html tbsPanel beDefault
 		with: [ html
@@ -14,4 +14,5 @@ renderItemsPanelOn: html
 								target: '_new';
 								with: 'a web extension.'.
 							html text: ' These are the items you have collected so far:' ].
-					html render: itemsTableSubcomponent ] ]
+					html render: itemsTableSubcomponent.
+					self renderSiteSuggestionsOn: html ] ]
