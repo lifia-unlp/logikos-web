@@ -7,7 +7,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"name",
-		"notes"
+		"notes",
+		"profile"
 	],
 	"name" : "LogikosNewDecisionComponent",
 	"type" : "normal"

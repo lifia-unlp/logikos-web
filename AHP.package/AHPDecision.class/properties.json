@@ -9,7 +9,8 @@
 		"alternatives",
 		"goalModel",
 		"leafNodes",
-		"name"
+		"name",
+		"notes"
 	],
 	"name" : "AHPDecision",
 	"type" : "normal"
