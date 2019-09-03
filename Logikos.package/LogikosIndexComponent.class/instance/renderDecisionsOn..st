@@ -19,4 +19,7 @@ renderDecisionsOn: html
 											html space.
 											html anchor
 												callback: [ self removeDecision: decision ];
-												with: [ html tbsGlyphIcon iconTrash ] ] ] ] ] ]
+												with: [ html tbsGlyphIcon iconTrash ] ] ] ].
+									html anchor 
+									callback: [ self newDecision ];
+									with: 'Explore a new decision ...' ] ]
