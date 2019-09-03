@@ -1,5 +1,5 @@
 rendering
-renderMainContentOn: html
+renderNameOn: html
 	name
 		ifNil: [ html tbsAlert
 				beInfo;
@@ -17,10 +17,10 @@ renderMainContentOn: html
 						placeholder: 'My new decision experiment !' ].
 			html
 				tbsFormGroup: [ html label
-						for: 'decisionName';
-						with: 'Experiment name'.
+						for: 'decisionNotes';
+						with: 'Experiment notes'.
 					html textInput
 						tbsFormControl;
-						id: 'decisionName';
-						on: #name of: self;
-						placeholder: 'My new decision experiment !' ] ]
+						id: 'decisionNotes';
+						on: #notes of: self;
+						placeholder: 'This is a very difficult decision about something very important !' ] ]

@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"name",
+		"notes"
+	],
 	"name" : "LogikosNewDecisionComponent",
 	"type" : "normal"
 }
