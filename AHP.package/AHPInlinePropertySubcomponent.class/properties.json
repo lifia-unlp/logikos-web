@@ -10,7 +10,8 @@
 		"selector",
 		"editing",
 		"label",
-		"value"
+		"value",
+		"textArea"
 	],
 	"name" : "AHPInlinePropertySubcomponent",
 	"type" : "normal"

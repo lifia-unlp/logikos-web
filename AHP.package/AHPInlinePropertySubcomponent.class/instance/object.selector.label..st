@@ -4,3 +4,4 @@ object: anObject selector: aSelector label: aLabel
 	selector := aSelector.
 	label := aLabel.
 	editing := false.
+	textArea := false.

@@ -5,7 +5,9 @@ renderEditingOn: html
 				tbsFormGroup: [ html label
 						for: 'property';
 						with: label.
-					html textInput
+					(textArea
+						ifTrue: [ html textArea ]
+						ifFalse: [ html textInput ])
 						on: #value of: self;
 						tbsFormControl;
 						id: 'property' ].
