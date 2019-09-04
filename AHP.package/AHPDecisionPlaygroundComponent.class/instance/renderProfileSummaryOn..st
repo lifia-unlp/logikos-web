@@ -2,13 +2,7 @@ rendering
 renderProfileSummaryOn: html
 	html heading
 		level: 4;
-		with: [ html
-				text: 'Base profile';
-				space.
-			html anchor
-				callback: [ self customizeProfile ];
-				title: 'Customize this profile';
-				with: [ html tbsGlyphIcon iconPencil ] ].
+		with: 'Base profile'.
 	html
 		tbsRow: [ html
 				tbsColumn: [ [ html

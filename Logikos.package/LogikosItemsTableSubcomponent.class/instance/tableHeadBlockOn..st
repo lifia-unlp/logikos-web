@@ -11,11 +11,13 @@ tableHeadBlockOn: html
 								with: [ html tbsGlyphIcon iconWrench ] ]
 						ifTrue: [ html break.
 							html tbsButton
+								beDefault;
 								beExtraSmall;
 								callback: [ cleaningEnabledForColumn := nil ];
 								with: 'confirm'.
 							html space.
 							html tbsButton
+								beDefault;
 								beExtraSmall;
 								callback: [ cleaningEnabledForColumn := nil ];
 								with: 'cancel' ] ] ].
