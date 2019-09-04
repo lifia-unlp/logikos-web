@@ -14,7 +14,10 @@ renderDecisionProfileChooserOn: html
 			html
 				tableBody: [ html
 						radioGroup: [ :group | 
-							LogikosApplicationModel singleton decisionProfiles
+							(LogikosApplicationModel singleton decisionProfiles
+								copyWith:
+									(LogikosDecisionProfile
+										forItems: LogikosApplicationModel singleton items))
 								do: [ :each | 
 									html
 										tableRow: [ html
