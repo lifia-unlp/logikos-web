@@ -1,25 +1,23 @@
 rendering-items
 renderSiteSuggestionsOn: html
-	| types url |
-	types := self items
-		collect: #type
-		as: Set.
+	| types |
+	types := self items collect: #type as: Set.
 	types size = 1
 		ifFalse: [ ^ self ].
 	html paragraph
-	   style: 'padding-top: 5px;';
-		with: [ html
-				strong: 'Suggestion: ';
-				text: 'All items you have collected so far appear to be ';
-				text: types any asZnUrl lastPathSegment;
-				text: '. These are web-site where other people have seen such items: '.
-			(LogikosApplicationModel singleton templates
-				select: [ :each | each itemType = types any ])
-				do: [ :each | 
-					url := each urlPattern asZnUrl.
-					html anchor
-						url: (ZnUrl fromString: url host defaultScheme: url scheme);
-						target: '_new';
-						with: url host ]
-				separatedBy: [ html text: ', ' ] .
-				html text: '. Go there and collect some more !']
+		style: 'padding-top: 5px;';
+		with: [ html paragraph: [ html strong: 'Suggestion: ' ].
+			html
+				unorderedList: [ html
+						listItem: [ html
+								text: 'All items you have collected so far are ';
+								text: types any asZnUrl lastPathSegment;
+								text: 's. These are web-site where other people have seen such items: '.
+							self
+								renderWebSitesIn:
+									((self templates select: [ :each | each itemType = types any ])
+										collect: #urlPattern)
+								on: html.
+							html text: '. Go there and collect some more !' ];
+						listItem: [ html
+								text: 'Click on the wrench icon to (manually) curate the data in each column.' ] ] ]

@@ -22,5 +22,5 @@ html tbsNavItem
 						beActiveIf: (selectedTab ==  #renderProfilesTabOn: );
 						with: [ html anchor
 								callback: [ selectedTab := #renderProfilesTabOn:  ];
-								with: 'Profiles' ] ] ].
+								with: 'Profiles (expert)' ] ] ].
 	self perform: selectedTab with: html

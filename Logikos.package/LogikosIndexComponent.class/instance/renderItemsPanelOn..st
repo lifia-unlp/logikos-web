@@ -12,8 +12,12 @@ renderItemsPanelOn: html
 							html anchor
 								url: '';
 								target: '_new';
-								with: 'a web extension.'.
-							self items
-								ifNotEmpty: [ html text: ' These are the items you have collected so far:' ] ].
-					html render: itemsTableSubcomponent.
-					self renderSiteSuggestionsOn: html ] ]
+								with: 'a web extension.' ].
+					self items
+						ifNotEmpty: [ html paragraph: 'These are the items you have collected so far:'.
+							html render: itemsTableSubcomponent.
+							self renderSiteSuggestionsOn: html ]
+						ifEmpty: [ html tbsAlert
+								beWarning;
+								with: 'Your list of items is empty. Maybe you can start collecting?'.
+							self renderSiteSuggestionsForEmptyItemsListOn: html ] ] ]

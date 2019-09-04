@@ -14,4 +14,8 @@ renderTemplatesPanelOn: html
 								url: '';
 								target: '_new';
 								with: 'a web extension' ].
-					html render: templatesTableSubcomponent ] ]
+					self templates
+						ifEmpty: [ html tbsAlert
+								beWarning;
+								with: 'There aren''t any templates available. Maybe you could create one?' ]
+						ifNotEmpty: [ html render: templatesTableSubcomponent ] ] ]
