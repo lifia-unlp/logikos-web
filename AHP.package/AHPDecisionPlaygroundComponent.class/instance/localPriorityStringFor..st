@@ -1,5 +1,5 @@
 private
 localPriorityStringFor: each
 	^ '('
-		, ((selectedLeafNode localPriorityFor: each) round: 3) printString
-		, ')'
+		, ((selectedLeafNode localPriorityFor: each) * 100) truncated printString
+		, '%)'
