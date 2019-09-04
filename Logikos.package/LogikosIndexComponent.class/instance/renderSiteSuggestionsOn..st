@@ -1,7 +1,7 @@
 rendering-items
 renderSiteSuggestionsOn: html
 	| types url |
-	types := LogikosApplicationModel singleton items
+	types := self items
 		collect: #type
 		as: Set.
 	types size = 1

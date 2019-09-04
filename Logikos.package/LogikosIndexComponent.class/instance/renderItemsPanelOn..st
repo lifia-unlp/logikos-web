@@ -13,6 +13,7 @@ renderItemsPanelOn: html
 								url: '';
 								target: '_new';
 								with: 'a web extension.'.
-							html text: ' These are the items you have collected so far:' ].
+							self items
+								ifNotEmpty: [ html text: ' These are the items you have collected so far:' ] ].
 					html render: itemsTableSubcomponent.
 					self renderSiteSuggestionsOn: html ] ]
