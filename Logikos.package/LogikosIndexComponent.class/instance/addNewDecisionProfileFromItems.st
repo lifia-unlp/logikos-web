@@ -1,14 +1,7 @@
 callbacks
 addNewDecisionProfileFromItems
-	| profile properties |
-	properties := LogikosApplicationModel singleton presentItemProperties.
+	| profile |
 	profile := LogikosDecisionProfile
-		named: 'For items with ' , (properties reduce: [ :a :b | a , ', ' , b ]).
-	properties
-		do: [ :property | 
-			profile
-				add:
-					((AHPCriteria named: property)
-						beTangible;
-						yourself) ].
+		forItems: LogikosApplicationModel singleton items.
+	profile name: '(Copy of) ' , profile name.
 	LogikosApplicationModel singleton addDecisionProfile: profile
