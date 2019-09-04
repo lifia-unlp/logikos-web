@@ -8,7 +8,9 @@
 	"instvars" : [
 		"selectedTab",
 		"itemsTableSubcomponent",
-		"templatesTableSubcomponent"
+		"templatesTableSubcomponent",
+		"profileEditor",
+		"decisionPlayground"
 	],
 	"name" : "LogikosIndexComponent",
 	"type" : "normal"

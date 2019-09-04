@@ -7,4 +7,8 @@ initialize
 	templatesTableSubcomponent := LogikosTemplatesTableSubcomponent new
 		model: LogikosApplicationModel singleton;
 		yourself.
-	selectedTab := #renderItemsTabOn:
+	selectedTab := #renderItemsTabOn:.
+	profileEditor := LogikosDecisionProfileEditorComponent new.
+	decisionPlayground := LogikosDecisionPlaygroundComponent new
+		allowsNew: false;
+		yourself
