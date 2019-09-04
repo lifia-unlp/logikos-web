@@ -1,0 +1,3 @@
+*Logikos
+inverse
+	^ value -> key

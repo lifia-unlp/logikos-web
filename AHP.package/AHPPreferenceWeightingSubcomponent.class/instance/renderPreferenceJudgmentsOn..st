@@ -1,16 +1,15 @@
 rendering
 renderPreferenceJudgmentsOn: html
-	| nodes |
+	| subNodes |
 	html tbsTable
 		beBordered;
 		with: [ html tableHead: [ self renderTableHeadingOn: html. ].
 			html
-				tableBody: [ nodes := node nodes asSortedCollection: [ :a :b | a name < b name ].
-					nodes size > 1
-						ifTrue: [ 1 to: nodes size do: [ :i | 
-								i + 1 to: nodes size do: [ :j | 
+				tableBody: [ subNodes := parentNode nodes asSortedCollection: [ :a :b | a name < b name ].
+					subNodes size > 1
+						ifTrue: [ 1 to: subNodes size do: [ :i | 
+								i + 1 to: subNodes size do: [ :j | 
 									self
-										renderPreferenceJudgmentBetween: (nodes at: i)
-										and: (nodes at: j)
-										at: node
+										renderPreferenceJudgmentBetween: (subNodes at: i)
+										and: (subNodes at: j)
 										on: html ] ] ] ] ]

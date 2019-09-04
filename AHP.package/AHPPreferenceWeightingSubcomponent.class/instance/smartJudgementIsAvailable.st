@@ -1,3 +1,3 @@
 testing
 smartJudgementIsAvailable
-	^ node smartJudgementIsAvailable
+	^ parentNode smartJudgementIsAvailable

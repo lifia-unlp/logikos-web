@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"node"
+		"hideObvious",
+		"uniqueComparisons",
+		"parentNode"
 	],
 	"name" : "AHPPreferenceWeightingSubcomponent",
 	"type" : "normal"

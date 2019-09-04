@@ -1,3 +1,3 @@
 callbacks
 autorank
-	node smartJudge
+	parentNode smartJudge

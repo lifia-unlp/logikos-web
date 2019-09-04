@@ -1,4 +1,4 @@
-rendering
+accessing
 labelForNode: aNode
-	(aNode valueForCriteria: node name) ifNotNil: [ :value | ^ value ].
+	(aNode valueForCriteria: parentNode name) ifNotNil: [ :value | ^ value ].
 	^ aNode name

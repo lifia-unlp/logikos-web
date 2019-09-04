@@ -1,3 +1,3 @@
 accessing
 node: anObject
-	node := anObject
+	parentNode := anObject

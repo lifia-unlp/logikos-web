@@ -5,7 +5,7 @@ renderLocalPrioritiesAsPieChartOn: html
 			(pieChartSubcomponent
 				data:
 					(self model localPriorities associations
-						collect: [ :ass | ass key name -> (ass value * 100) truncated ])
+						collect: [ :ass | ass key name -> (ass value * 100) rounded ])
 						asDictionary) ]
 		on: Error
 		do: [ html text: Error printString ]
