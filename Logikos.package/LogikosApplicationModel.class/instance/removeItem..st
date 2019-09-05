@@ -1,3 +1,3 @@
 accessing
 removeItem: aLogikosItem
-	items removeKey: aLogikosItem url
+	self removeItem: aLogikosItem at: '_default_'

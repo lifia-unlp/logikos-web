@@ -1,3 +1,3 @@
 accessing
 addItem: anItem
-	items at: anItem url put: anItem
+	self addItem: anItem at: '_default'

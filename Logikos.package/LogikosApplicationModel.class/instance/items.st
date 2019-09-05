@@ -1,3 +1,3 @@
 accessing
 items
-	^ items values
+	^ self itemsAt: '_default_'
