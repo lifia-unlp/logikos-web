@@ -5,6 +5,6 @@ renderMainContentOn: html
 		with: 'Making a decision'.
 	self
 		renderEditFormOn: html;
-		renderProfileSummaryOn: html;
+		renderAlternativesOn: html;
 		renderJudgmentsOn: html;
-		renderAlternativesOn: html
+		renderProfileSummaryOn: html

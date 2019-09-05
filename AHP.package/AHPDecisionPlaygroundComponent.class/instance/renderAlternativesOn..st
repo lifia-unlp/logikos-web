@@ -3,6 +3,7 @@ renderAlternativesOn: html
 	html heading
 		level: 4;
 		with: 'Suggested ranking of alternatives'.
+		html paragraph: 'The following ranking is based on how the alternatives rank according to each dimension (''Comparing alternatives'' section), and how relevant each dimension is according to the base profile (''Base profile'' section).'.
 	html
 		orderedList: [ (self model alternatives
 				asSortedCollection: [ :earlier :later | earlier overallPriority > later overallPriority ])

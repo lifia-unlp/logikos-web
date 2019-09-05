@@ -5,5 +5,4 @@ renderJudgmentsOn: html
 		with: 'Comparing alternatives '.
 	self
 		renderLeafNodeSelectorTabOn: html;
-		renderJudmentsForSelectedNodeOn: html;
-		renderLocalRankingOn: html
+		renderJudmentsForSelectedNodeOn: html

@@ -1,4 +1,7 @@
 rendering
 renderJudmentsForSelectedNodeOn: html
-	preferenceWeightingComponent node: selectedLeafNode.
-	html render: preferenceWeightingComponent.
+	html tbsPanel beDefault
+		with: [ html
+				tbsPanelBody: [ preferenceWeightingComponent node: selectedLeafNode.
+					html render: preferenceWeightingComponent.
+					self renderLocalRankingOn: html ] ]
