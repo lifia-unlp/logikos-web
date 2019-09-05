@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "WASession",
+	"category" : "Logikos-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"accessCode",
+		"username",
+		"applicationModel"
+	],
+	"name" : "LogikosSession",
+	"type" : "normal"
+}
