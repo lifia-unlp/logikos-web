@@ -1,4 +1,4 @@
 accessing
 ensureItemSpace: aSpaceName
-	(self items includesKey: aSpaceName)
-		ifFalse: [ self items at: aSpaceName put: Dictionary new ]
+	(items includesKey: aSpaceName)
+		ifFalse: [ items at: aSpaceName put: Dictionary new ]
