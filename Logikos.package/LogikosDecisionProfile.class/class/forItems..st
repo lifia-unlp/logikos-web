@@ -1,6 +1,8 @@
 instance creation
 forItems: aCollectionOfLogikosItems
 	| profile properties |
+	aCollectionOfLogikosItems
+		ifEmpty: [ ^ LogikosDecisionProfile named: 'An clean decision profile' ].
 	properties := (aCollectionOfLogikosItems
 		flatCollect: [ :each | each properties keys ]) asSet
 		asSortedCollection.
