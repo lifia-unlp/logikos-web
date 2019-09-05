@@ -2,7 +2,7 @@ rendering
 model: aNode
 	super model: aNode.
 	name := aNode name.
-	preferencesComponent := (AHPPreferenceWeightingSubcomponent
+	preferencesComponent := (AHPExahustivePreferenceWeightingSubcomponent
 		parent: self)
 		node: aNode;
 		yourself.

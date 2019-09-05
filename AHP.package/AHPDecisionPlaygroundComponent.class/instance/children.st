@@ -1,3 +1,6 @@
 rendering
 children
-	^ {pieChartSubcomponent}
+	^ {pieChartSubcomponent.
+	preferenceWeightingComponent.
+	inlineEditorComponentForName.
+	inlineEditorComponentForNotes}

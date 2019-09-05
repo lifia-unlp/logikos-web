@@ -2,7 +2,7 @@ initialization
 model: aDecision
 	super model: aDecision.
 	name := aDecision name.
-	preferenceWeightingComponent := AHPPreferenceWeightingSubcomponent
+	preferenceWeightingComponent := AHPExahustivePreferenceWeightingSubcomponent
 		parent: self.
 	inlineEditorComponentForName := AHPInlinePropertySubcomponent
 		object: aDecision

@@ -1,7 +1,5 @@
 rendering
 renderPreferenceJudgmentBetween: firstNode and: secondNode on: html
-	(self isRedundant: firstNode -> secondNode) & hideObvious
-		ifTrue: [ ^ self ].
 	html tableRow
 		with: [ html tableData
 				style: 'text-align: left;';

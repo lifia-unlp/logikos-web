@@ -1,3 +1,3 @@
-moving
+testing
 smartJudgementIsAvailable
 	^ selectedLeafNode smartJudgementIsAvailable
