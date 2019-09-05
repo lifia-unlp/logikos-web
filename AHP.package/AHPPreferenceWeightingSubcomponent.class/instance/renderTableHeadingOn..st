@@ -1,6 +1,6 @@
 rendering
 renderTableHeadingOn: html
-	html tableHeading: ''.
+	html tableHeading: parentNode name.
 	html tableHeading
 		style: 'text-align: center;';
 		with: [ html
@@ -12,4 +12,6 @@ renderTableHeadingOn: html
 						callback: [ self autorank ];
 						title: 'Click for a suggestion!';
 						with: [ html tbsGlyphIcon iconExclamationSign ] ] ].
-	html tableHeading: ''
+	html tableHeading
+		style: 'text-align: right;';
+		with: parentNode name
