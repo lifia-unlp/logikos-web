@@ -2,6 +2,6 @@ callbacks
 addNewDecisionProfileFromItems
 	| profile |
 	profile := LogikosDecisionProfile
-		forItems: LogikosApplicationModel singleton items.
+		forItems: self session items.
 	profile name: '(Copy of) ' , profile name.
-	LogikosApplicationModel singleton addDecisionProfile: profile
+	self session addDecisionProfile: profile

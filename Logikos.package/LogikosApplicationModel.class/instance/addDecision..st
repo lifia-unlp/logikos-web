@@ -1,3 +1,3 @@
 accessing
 addDecision: aDecision
-	decisions add: aDecision
+	decisions add: aDecision at: '_default_'

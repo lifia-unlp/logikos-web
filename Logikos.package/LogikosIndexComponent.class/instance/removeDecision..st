@@ -1,3 +1,3 @@
 callbacks
 removeDecision: anAHPDecision
-	LogikosApplicationModel singleton removeDecision: anAHPDecision
+	self session removeDecision: anAHPDecision

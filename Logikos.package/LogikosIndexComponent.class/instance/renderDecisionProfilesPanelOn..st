@@ -10,7 +10,7 @@ renderDecisionProfilesPanelOn: html
 						paragraph:
 							'Decision profiles are reusable strategies to compare items considering multiple dimensions at once. These are the available profiles:'.
 					html
-						unorderedList: [ LogikosApplicationModel singleton decisionProfiles
+						unorderedList: [ self session decisionProfiles
 								do: [ :profile | 
 									html
 										listItem: [ html text: profile name.

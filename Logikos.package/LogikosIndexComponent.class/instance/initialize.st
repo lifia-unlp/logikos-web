@@ -2,10 +2,10 @@ initialization
 initialize
 	super initialize.
 	itemsTableSubcomponent := LogikosItemsTableSubcomponent new
-		model: LogikosApplicationModel singleton;
+		model: self session;
 		yourself.
 	templatesTableSubcomponent := LogikosTemplatesTableSubcomponent new
-		model: LogikosApplicationModel singleton;
+		model: self session;
 		yourself.
 	selectedTab := #renderItemsTabOn:.
 	profileEditor := LogikosDecisionProfileEditorComponent new.

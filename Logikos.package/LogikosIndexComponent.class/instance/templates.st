@@ -1,3 +1,3 @@
 rendering-items
 templates
-	^ LogikosApplicationModel singleton templates
+	^self session templates

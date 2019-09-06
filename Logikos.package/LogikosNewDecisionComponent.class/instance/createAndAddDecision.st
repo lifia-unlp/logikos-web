@@ -7,12 +7,12 @@ createAndAddDecision
 		notes: notes.
 	decision
 		addAlternatives:
-			(LogikosApplicationModel singleton items
+			(self session items
 				collect: [ :each | 
 					| itemName |
 					itemName := each properties
 						at: 'name'
 						ifAbsent: [ each printString ].
 					AHPAlternative named: itemName object: each ]).
-	LogikosApplicationModel singleton addDecision: decision.
+	self session addDecision: decision.
 	^ decision

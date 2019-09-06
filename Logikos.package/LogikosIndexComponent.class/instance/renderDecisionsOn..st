@@ -1,7 +1,7 @@
 rendering
 renderDecisionsOn: html
 	| decisions |
-	decisions := LogikosApplicationModel singleton decisions.
+	decisions := self session decisions.
 	html tbsPanel beDefault
 		with: [ html
 				tbsPanelHeading: [ html tbsPanelTitle

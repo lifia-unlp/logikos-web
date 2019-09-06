@@ -1,3 +1,3 @@
 callbacks
 removeDecisionProfile: aLogikosDecisionProfile 
-	LogikosApplicationModel singleton removeDecisionProfile: aLogikosDecisionProfile
+	self session removeDecisionProfile: aLogikosDecisionProfile
