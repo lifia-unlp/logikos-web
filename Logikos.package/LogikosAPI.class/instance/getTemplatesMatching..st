@@ -10,4 +10,4 @@ getTemplatesMatching: url
 				headerAt: 'Access-Control-Allow-Credentials' put: 'true';
 				contentType: WAMimeType applicationJson;
 				status: WAResponse statusOk;
-				nextPutAll: (self write: (self logikosApplicationModel templatesMatching: url)) ]
+				nextPutAll: (self write: (self logikosApplicationModel templatesMatching: url urlDecoded)) ]
