@@ -13,4 +13,12 @@ renderContentOn: html
 									self
 										renderPreferenceJudgmentBetween: (subNodes at: i)
 										and: (subNodes at: j)
-										on: html ] ] ] ] ]
+										on: html ] ] ] ] ].
+	self smartJudgementIsAvailable
+		ifTrue: [ html
+				paragraph: [ html small
+						with: [ html
+								text:
+									'Smart ranking is available for this dimention. That means I can help you compare the values based on the profile you selected. You can change it as you wish, and then use the flash icon ('.
+							html tbsGlyphIcon iconFlash.
+							html text: ') to return to my suggested comparison.' ] ] ]

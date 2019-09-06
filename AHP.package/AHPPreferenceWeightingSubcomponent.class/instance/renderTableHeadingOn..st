@@ -10,8 +10,8 @@ renderTableHeadingOn: html
 			self smartJudgementIsAvailable
 				ifTrue: [ html anchor
 						callback: [ self autorank ];
-						title: 'Click for a suggestion!';
-						with: [ html tbsGlyphIcon iconExclamationSign ] ] ].
+						title: 'Apply smart ranking!';
+						with: [ html tbsGlyphIcon iconFlash ] ] ].
 	html tableHeading
 		style: 'text-align: right;';
 		with: parentNode name
