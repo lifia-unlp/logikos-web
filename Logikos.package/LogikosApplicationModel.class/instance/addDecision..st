@@ -1,3 +1,3 @@
 accessing
 addDecision: aDecision
-	decisions add: aDecision at: '_default_'
+	self addDecision: aDecision at: self defaultNamespaceLabel

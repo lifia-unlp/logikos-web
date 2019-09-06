@@ -1,3 +1,3 @@
 accessing
 presentItemPropertiesAt: aSpaceName
-	^ self presentItemPropertiesAt: '_default_'
+	^ self presentItemPropertiesAt: self defaultNamespaceLabel

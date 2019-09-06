@@ -1,3 +1,3 @@
 accessing
 removeItem: aLogikosItem
-	self removeItem: aLogikosItem at: '_default_'
+	self removeItem: aLogikosItem at: self defaultNamespaceLabel

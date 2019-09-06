@@ -1,3 +1,3 @@
 accessing
 items
-	^ self itemsAt: '_default_'
+	^ self itemsAt: self defaultNamespaceLabel

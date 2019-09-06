@@ -1,3 +1,3 @@
 accessing
 decisions
-	^ decisions at: '_default_'
+	^ decisions at: self defaultNamespaceLabel

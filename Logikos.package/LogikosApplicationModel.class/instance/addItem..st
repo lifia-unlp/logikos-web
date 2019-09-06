@@ -1,3 +1,3 @@
 accessing
 addItem: anItem
-	self addItem: anItem at: '_default'
+	self addItem: anItem at: self defaultNamespaceLabel
