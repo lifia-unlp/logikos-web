@@ -10,7 +10,8 @@
 		"itemsTableSubcomponent",
 		"templatesTableSubcomponent",
 		"profileEditor",
-		"decisionPlayground"
+		"decisionPlayground",
+		"showExpertOptions"
 	],
 	"name" : "LogikosIndexComponent",
 	"type" : "normal"

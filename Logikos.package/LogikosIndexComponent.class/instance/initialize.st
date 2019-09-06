@@ -11,4 +11,5 @@ initialize
 	profileEditor := LogikosDecisionProfileEditorComponent new.
 	decisionPlayground := LogikosDecisionPlaygroundComponent new
 		allowsNew: false;
-		yourself
+		yourself.
+	showExpertOptions := false
