@@ -1,3 +1,5 @@
 accessing
 presentItemPropertiesAt: aSpaceName
-	^ self presentItemPropertiesAt: self defaultNamespaceLabel
+	^ ((items at: aSpaceName)
+		flatCollect: [ :each | each properties keys ]) asSet
+		asSortedCollection
