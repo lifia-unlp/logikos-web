@@ -1,3 +1,5 @@
 hooks
 compareValue: altOne toValue: altTwo
-	self shouldBeImplemented
+	^ model
+		compare: (model nodeNamed: altOne)
+		to: (model nodeNamed: altTwo)
