@@ -1,3 +1,3 @@
 accessing
 removeDecision: aDecision
-	decisions remove: aDecision
+	self removeDecision: aDecision at: self defaultNamespaceLabel

@@ -1,0 +1,3 @@
+Accessing
+smartJudge
+	goalModel smartJudge

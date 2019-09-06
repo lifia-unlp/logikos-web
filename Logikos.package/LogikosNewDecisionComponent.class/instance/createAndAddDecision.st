@@ -14,5 +14,6 @@ createAndAddDecision
 						at: 'name'
 						ifAbsent: [ each printString ].
 					AHPAlternative named: itemName object: each ]).
+				decision smartJudge.
 	self session addDecision: decision.
 	^ decision

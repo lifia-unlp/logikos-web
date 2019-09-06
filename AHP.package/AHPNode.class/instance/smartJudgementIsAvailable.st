@@ -1,3 +1,3 @@
 testing
 smartJudgementIsAvailable
-	^ false
+	^ self subclassResponsibility 

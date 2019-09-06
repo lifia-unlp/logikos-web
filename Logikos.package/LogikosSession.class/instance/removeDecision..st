@@ -1,3 +1,3 @@
 api
 removeDecision: anAHPDecision
-	applicationModel removeDecision: anAHPDecision
+	applicationModel removeDecision: anAHPDecision at: accessCode 
