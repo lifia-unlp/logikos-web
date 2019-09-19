@@ -25,4 +25,7 @@ renderDecisionProfilesPanelOn: html
 					html
 						paragraph: [ html anchor
 								callback: [ self addNewDecisionProfileFromItems ];
-								with: 'New ...' ] ] ]
+								with: [ html tbsButton
+										beDefault;
+										beExtraSmall;
+										with: 'New' ] ] ] ]
