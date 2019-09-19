@@ -17,7 +17,7 @@ renderProfileSummaryOn: html
 			html
 				tbsColumn: [ html
 						paragraph: [ html strong: self model goalModel name ];
-						paragraph: (self model notes ifNil: [ 'This profile has no  notes... sorry' ]);
+						paragraph: (self model goalModel comments ifNil: [ 'This profile has no  notes... sorry' ]);
 						paragraph: [ html anchor
 								callback: [ self customizeProfile ];
 								title: 'Customize this profile';
