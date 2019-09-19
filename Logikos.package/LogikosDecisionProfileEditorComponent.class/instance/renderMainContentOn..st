@@ -9,4 +9,6 @@ renderMainContentOn: html
 		ifTrue: [ html heading
 				level: 4;
 				with: 'Local preferences'.
-			html render: preferencesComponent ]
+			html render: preferencesComponent ].
+
+	self renderButtonsOn: html

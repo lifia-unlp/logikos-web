@@ -1,4 +1,7 @@
 callbacks
 editDecisionProfile: profile
-	profileEditor model: profile.
-	self show: profileEditor
+	| result |
+	profileEditor model: profile cloneWithoutParentsOrAlternatives.
+	result := self call: profileEditor.
+	result notNil
+		ifTrue: [ self session replaceDecisionProfile: profile with: result ]
