@@ -7,7 +7,7 @@ renderMainContentOn: html
 						beActiveIf: selectedTab == #renderItemsTabOn:;
 						with: [ html anchor
 								callback: [ selectedTab := #renderItemsTabOn: ];
-								with: 'Items' ].
+								with: 'Dashboard' ].
 					html tbsNavItem
 						beActiveIf: selectedTab == #renderDecisionsTabOn:;
 						with: [ html anchor
@@ -22,7 +22,7 @@ renderMainContentOn: html
 								beActiveIf: selectedTab == #renderTemplatesTabOn:;
 								with: [ html anchor
 										callback: [ selectedTab := #renderTemplatesTabOn: ];
-										with: 'Templates (expert)' ].
+										with: 'Models (expert)' ].
 							html tbsNavItem
 								beActiveIf: selectedTab == #renderProfilesTabOn:;
 								with: [ html anchor
