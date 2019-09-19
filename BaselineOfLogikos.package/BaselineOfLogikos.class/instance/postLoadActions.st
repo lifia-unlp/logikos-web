@@ -8,7 +8,7 @@ postLoadActions
 		edit:
 			'
 "You can access your server at http://localhost:8080/
-Your access code is ''entrar'' without the single quotes"
+Your access code is the empty string"
 
 "To change the port, use your Seaside control panel"
 
