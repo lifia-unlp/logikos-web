@@ -2,7 +2,5 @@ rendering
 renderDetailsOn: html
 	html heading
 		level: 4;
-		with: 'Details'.
+		with: 'A decision criteria'.
 	html render: inlineEditorComponentForName.
-	self renderParentReferenceOn: html.
-	self renderTypeOn: html

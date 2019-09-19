@@ -11,7 +11,7 @@ renderSmartRankingOptionsOn: html
 				callback: [ self configureSmartJudgment ];
 				with: [ html tbsButton
 						beDefault;
-						beSmall;
+						beExtraSmall;
 						with: 'Configure' ] ]
 		ifNotNil: [ html
 				paragraph: [ html

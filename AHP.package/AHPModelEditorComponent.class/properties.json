@@ -9,7 +9,8 @@
 		"name",
 		"preferencesComponent",
 		"criteriaHierarchyComponent",
-		"inlineEditorComponentForName"
+		"inlineEditorComponentForName",
+		"showAdvanced"
 	],
 	"name" : "AHPModelEditorComponent",
 	"type" : "normal"
