@@ -7,7 +7,7 @@ cloneWithoutParentsOrAlternatives
 	nodeCopies := IdentityDictionary new.
 	nodes
 		do: [ :originalNode | 
-			subNodeCopy := originalNode cloneWithoutParents.
+			subNodeCopy := originalNode cloneWithoutParentsOrAlternatives.
 			nodeCopies at: originalNode put: subNodeCopy.
 			myCopy add: subNodeCopy ].
 	comparisons
