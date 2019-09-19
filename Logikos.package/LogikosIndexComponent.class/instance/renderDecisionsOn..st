@@ -23,6 +23,12 @@ renderDecisionsOn: html
 											html anchor
 												callback: [ self removeDecision: decision ];
 												with: [ html tbsGlyphIcon iconTrash ] ] ] ].
+					html
+						paragraph:
+							'Your (rational) decisions are the purpose of all of this. Use the ''New'' button to make a new decision based on the items in your dashboard. '.
 					html anchor
 						callback: [ self newDecision ];
-						with: 'Make a new decision ...' ] ]
+						with: [ html tbsButton
+								beDefault;
+								beExtraSmall;
+								with: 'New' ] ] ]
