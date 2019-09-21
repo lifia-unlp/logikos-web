@@ -4,7 +4,8 @@ renderAdvancedInfoOn: html
 		ifTrue: [ self renderParentReferenceOn: html.
 			self renderTypeOn: html.
 			self model isTangible
-				ifTrue: [ self renderSmartRankingOptionsOn: html ]
+				ifTrue: [ self renderValuesInDashboardOn: html.
+					self renderSmartRankingOptionsOn: html ]
 				ifFalse: [ self renderCriteriaOn: html.
 					self model nodes size > 1
 						ifTrue: [ html heading
