@@ -24,5 +24,5 @@ renderSmartRankingOptionsOn: html
 								callback: [ self clearSmartJudgment ];
 								with: [ html tbsButton
 										beDefault;
-										beSmall;
+										beExtraSmall;
 										with: 'Clear' ] ] ] ]
