@@ -1,3 +1,5 @@
 callbacks
-accept 	
-   ^self answer: model
+accept
+	self model comment: originalNode comment.
+	
+	^ self answer: model

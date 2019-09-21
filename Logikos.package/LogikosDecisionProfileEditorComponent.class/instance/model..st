@@ -1,22 +1,23 @@
 rendering
 model: aNode
-	super model: aNode.
-	name := aNode name.
+	originalNode := aNode.
+	super model: aNode cloneWithoutParents.
+	name := self model name.
 	preferencesComponent := (AHPExahustivePreferenceWeightingSubcomponent
 		parent: self)
-		node: aNode;
+		node: self model;
 		yourself.
 	criteriaHierarchyComponent := (AHPCriteriaHierarchySubcomponent
 		parent: self)
-		node: aNode;
+		node: self model;
 		displayPriorities: false;
 		yourself.
 	inlineEditorComponentForName := AHPInlinePropertySubcomponent
-		object: aNode
+		object: self model
 		selector: #name
 		label: 'Name'.
 	inlineEditorComponentForComments := AHPInlinePropertySubcomponent
-		object: aNode
+		object: self model
 		selector: #comments
 		label: 'Comments'.
-		inlineEditorComponentForComments textArea: true.
+	inlineEditorComponentForComments textArea: true

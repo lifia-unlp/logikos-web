@@ -4,7 +4,7 @@ addNewDecisionProfileFromItems
 	profile := LogikosDecisionProfile forItems: self session items.
 	profile
 		name: '(Copy of) ' , profile name;
-		comments: 'Pleas... provide a comment'.
+		comments: 'Please... provide a comment'.
 	profileEditor model: profile.
 	result := self call: profileEditor.
 	result notNil

@@ -11,7 +11,8 @@
 		"preferencesComponent",
 		"criteriaHierarchyComponent",
 		"inlineEditorComponentForName",
-		"inlineEditorComponentForComments"
+		"inlineEditorComponentForComments",
+		"originalNode"
 	],
 	"name" : "LogikosDecisionProfileEditorComponent",
 	"type" : "normal"
