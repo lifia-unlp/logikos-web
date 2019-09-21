@@ -14,7 +14,4 @@ renderAdvancedInfoOn: html
 		ifFalse: [ html anchor
 				callback: [ showAdvanced := true ];
 				title: 'Show expert options about this criteria';
-				with: [ html tbsButton
-						beDefault;
-						beExtraSmall;
-						with: 'Show expert options' ] ]
+				with: 'see more ...' ]

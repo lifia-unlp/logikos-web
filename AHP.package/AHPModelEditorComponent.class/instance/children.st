@@ -1,4 +1,5 @@
 accessing
 children
 	^ {preferencesComponent.
-	criteriaHierarchyComponent}
+	criteriaHierarchyComponent.
+	inPlaceNameEditor}
