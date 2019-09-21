@@ -6,6 +6,6 @@ localPrioritiesSummaryString
 		asSortedCollection: [ :earlier :later | earlier value > later value ])
 		do: [ :each | 
 			stream
-				nextPutAll: each key name , ' (' , (each value round: 2) printString , ')' ]
+				nextPutAll: each key name , ' (' , (each value * 100) truncated printString , '%)' ]
 		separatedBy: [ stream nextPutAll: ', ' ].
 	^ stream contents
