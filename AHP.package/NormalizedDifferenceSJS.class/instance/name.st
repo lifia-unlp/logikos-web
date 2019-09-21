@@ -1,3 +1,3 @@
 hooks
 name
-	^ 'Normalized numeric difference'
+	^ 'Treat it as a number'

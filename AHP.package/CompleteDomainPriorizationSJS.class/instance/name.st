@@ -1,3 +1,3 @@
 hooks
 name
-	^'Complete domain priorization'
+	^'Pairwise comparisson of all possible values'
