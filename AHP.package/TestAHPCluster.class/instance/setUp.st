@@ -1,6 +1,6 @@
 running
 setUp
-	cluster := AHPNode new.
+	cluster := AHPNode named: 'cluster'.
 	cost := AHPNode named: 'Cost'.
 	cluster add: cost.
 	comfort := AHPNode named: 'Comfort'.

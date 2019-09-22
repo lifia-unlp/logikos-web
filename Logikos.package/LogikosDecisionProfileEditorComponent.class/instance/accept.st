@@ -1,6 +1,6 @@
 callbacks
 accept
 	originalNode
-		beCloneWithoutParentsOf: self model
+		cloneWithoutParentsFrom: self model
 		ignoreAlternatives: true.
 	^ self answer: originalNode

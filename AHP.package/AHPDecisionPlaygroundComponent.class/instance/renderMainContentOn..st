@@ -7,4 +7,5 @@ renderMainContentOn: html
 		renderEditFormOn: html;
 		renderAlternativesOn: html;
 		renderJudgmentsOn: html;
-		renderProfileSummaryOn: html
+		renderProfileSummaryOn: html;
+		renderCancelAcceptButtonsOn: html.

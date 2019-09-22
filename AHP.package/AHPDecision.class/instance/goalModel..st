@@ -1,5 +1,5 @@
 initialization
 goalModel: anAHPNode
-	goalModel := anAHPNode cloneWithoutParents.
+	goalModel := anAHPNode.
 	leafNodes := goalModel leafNodes.
 	alternatives := OrderedCollection new

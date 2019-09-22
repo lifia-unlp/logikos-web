@@ -1,7 +1,7 @@
 callbacks
 createAndAddDecision
 	| decision |
-	decision := AHPDecision basedOn: profile.
+	decision := AHPDecision basedOn: profile cloneWithoutParents .
 	decision
 		name: name;
 		notes: notes.

@@ -8,7 +8,6 @@ testCloneWithoutParentsOrAlternatives
 	original addParent: parent.
 	original add: subOne.
 	copy := original cloneWithoutParentsOrAlternatives.
-	self deny: original equals: copy.
 	self assert: original name equals: copy name.
 	self assert: copy parents isEmpty.
 	self assert: copy nodes isEmpty

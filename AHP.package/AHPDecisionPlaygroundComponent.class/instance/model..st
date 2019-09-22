@@ -1,15 +1,16 @@
 initialization
-model: aDecision
-	super model: aDecision.
-	name := aDecision name.
+model: aDecisionToEditOrCancel
+	originalDecision := aDecisionToEditOrCancel.
+	super model: originalDecision clone.
+
 	preferenceWeightingComponent := AHPSimplifiedPreferenceWeightingSubcomponent
 		parent: self.
 	inlineEditorComponentForName := AHPInlinePropertySubcomponent
-		object: aDecision
+		object: self model
 		selector: #name
 		label: 'Decision title'.
 	inlineEditorComponentForNotes := AHPInlinePropertySubcomponent
-		object: aDecision
+		object: self model
 		selector: #notes
 		label: 'Notes'.
 	inlineEditorComponentForNotes textArea: true.
