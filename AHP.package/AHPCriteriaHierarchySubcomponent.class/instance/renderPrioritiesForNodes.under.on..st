@@ -8,7 +8,7 @@ renderPrioritiesForNodes: nodes under: parentNode on: html
 							html space.
 							self renderPrioritiesFor: each under: parentNode on: html.
 							self renderActionButtonsFor: each under: parentNode on: html.
-							each nodes
+							each nonAlternativeNodes
 								ifNotEmpty: [ self renderPrioritiesForNodes: each nodes under: each on: html ] ] ].
 			parentNode = node & readOnly not
 				ifTrue: [ html
