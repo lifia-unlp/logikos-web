@@ -1,16 +1,17 @@
 cloning
-beCloneWithoutParentsOf: anotherNode 
-	|  nodeCopies subNodeCopy |
-   self initialize. 
-	nodeCopies := IdentityDictionary new.
-	nodes
-		do: [ :originalNode | 
-			subNodeCopy := originalNode cloneWithoutParents.
-			nodeCopies at: originalNode put: subNodeCopy .
-			self add: subNodeCopy ].
-	comparisons
-		do: [ :comp | 
+beCloneWithoutParentsOf: anotherNode
+	self initialize.
+	name := anotherNode name copy.
+	self
+		addAll: (anotherNode nodes collect: [ :each | each cloneWithoutParents ]).
+	self nodeNames combinations
+		select: [ :each | each size = 2 ]
+		thenDo: [ :each | 
+			| aComparison |
+			aComparison := anotherNode
+				compareName: each first
+				toName: each second.
 			self
-				compare: (nodeCopies at: comp nodeA)
-				to: (nodeCopies at: comp nodeB)
-				by: (comp compare: comp nodeA to: comp nodeB) ].
+				compare: (self nodeNamed: each first)
+				to: (self nodeNamed: each second)
+				by: aComparison ]

@@ -8,4 +8,6 @@ testAdd
 	self
 		assertCollection: one nodes
 		equals: (OrderedCollection with: two).
-	self should: [ one add: twoBis ] raise: Error
+	self should: [ one add: twoBis ] raise: Error.
+	self should: [ one add: AHPNode new ] raise: Error.
+	self should: [ one add: (AHPNode named: '') ] raise: Error

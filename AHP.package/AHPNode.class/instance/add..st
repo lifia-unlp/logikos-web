@@ -2,6 +2,8 @@ accessing
 add: anAHPNode
 	(self nodeNames includes: anAHPNode name)
 		ifTrue: [ ^ self error: 'Attempt to add a note with a duplicate name' ].
+	anAHPNode name isEmptyOrNil
+		ifTrue: [ ^ self error: 'Attempt to add a note an empty or nil name' ].
 	localPriorities := nil.
 	nodes
 		do:
