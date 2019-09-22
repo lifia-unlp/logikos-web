@@ -4,4 +4,4 @@ cloneWithoutParentsFrom: anotherNode ignoreAlternatives: ignoreAlternatives
 		cloneWithoutParentsFrom: anotherNode
 		ignoreAlternatives: ignoreAlternatives.
 	isTangible := anotherNode isTangible.
-	smartJudgementStrategy := smartJudgementStrategy copy
+	smartJudgementStrategy := anotherNode smartJudgementStrategy copy
