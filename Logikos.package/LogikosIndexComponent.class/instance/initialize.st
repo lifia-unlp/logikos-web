@@ -1,6 +1,7 @@
 initialization
 initialize
 	super initialize.
+	returnButtonMode := #logout.
 	itemsTableSubcomponent := LogikosItemsTableSubcomponent new
 		model: self session;
 		yourself.

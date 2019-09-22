@@ -1,4 +1,5 @@
 initialization
 initialize
    super initialize. 
-	showAdvanced := false
+	showAdvanced := false.
+	returnButtonMode := #cancelAccept

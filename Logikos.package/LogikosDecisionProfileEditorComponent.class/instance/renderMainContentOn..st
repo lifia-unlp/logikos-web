@@ -10,5 +10,3 @@ renderMainContentOn: html
 				level: 4;
 				with: 'Local preferences'.
 			html render: preferencesComponent ].
-
-	self renderButtonsOn: html

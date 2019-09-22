@@ -1,6 +1,10 @@
 rendering
 renderTableHeadingOn: html
-	html tableHeading: parentNode name.
+	| parentName |
+	parentName := parentNode isCriteria
+		ifTrue: [ parentNode name ]
+		ifFalse: [ '' ].
+	html tableHeading: parentName.
 	html tableHeading
 		style: 'text-align: center;';
 		with: [ html
@@ -14,4 +18,4 @@ renderTableHeadingOn: html
 						with: [ html tbsGlyphIcon iconFlash ] ] ].
 	html tableHeading
 		style: 'text-align: right;';
-		with: parentNode name
+		with: parentName

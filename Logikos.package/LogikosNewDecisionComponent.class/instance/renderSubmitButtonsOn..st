@@ -3,11 +3,11 @@ renderSubmitButtonsOn: html
 	html tbsSubmitButton
 		beDefault;
 		beSmall;
-		callback: [ self proceed ];
-		with: 'Proceed'.
+		callback: [ self cancel ];
+		with: 'Cancel'.
 	html space.
 	html tbsSubmitButton
-		callback: [ self cancel ];
+		callback: [ self proceed ];
 		beDefault;
 		beSmall;
-		with: 'Cancel'
+		with: 'Proceed'

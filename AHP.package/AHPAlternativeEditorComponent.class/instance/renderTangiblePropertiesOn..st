@@ -1,8 +1,10 @@
 rendeering
 renderTangiblePropertiesOn: html
 	| tangibleParents |
-	tangibleParents := (self model parents asSortedCollection: [ :a :b | a name < b name ])
+	tangibleParents := (self model parents
+		asSortedCollection: [ :a :b | a name < b name ])
 		select: [ :each | each isTangible ].
+	tangibleParents ifEmpty: [ ^ self ].
 	html heading
 		level: 4;
 		with: 'Tangible properties'.
