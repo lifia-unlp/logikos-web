@@ -8,13 +8,14 @@ baseline: spec
 				bootstrap: spec;
 				bootstrapSkeleton: spec;
 				seasideUtilities: spec;
+				mocketry: spec;
 				neoJSON: spec.
 			spec package: 'JSCharts'.
 			spec
 				package: 'AHP'
 				with: [ spec
 						requires:
-							#('Seaside3' 'Seaside-REST-Core' 'Bootstrap' 'Bootstrap-Skeleton' 'NeoJSON' 'Seaside-Utilities') ].
+							#('Seaside3' 'Seaside-REST-Core' 'Bootstrap' 'Bootstrap-Skeleton' 'NeoJSON' 'Seaside-Utilities' 'Mocketry') ].
 			spec
 				package: 'Logikos'
 				with: [ spec requires: #('AHP' 'JSCharts') ].
