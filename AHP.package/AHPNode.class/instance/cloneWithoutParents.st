@@ -1,5 +1,5 @@
 cloning
 cloneWithoutParents
 	^ self class new
-		beCloneWithoutParentsOf: self;
+		beCloneWithoutParentsOf: self ignoreAlternatives: false;
 		yourself

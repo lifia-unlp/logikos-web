@@ -1,4 +1,0 @@
-cloning
-beCloneWithoutParentsOrAlternativesOf: anotherNode
-	super beCloneWithoutParentsOrAlternativesOf: anotherNode.
-	self comments: anotherNode comments
