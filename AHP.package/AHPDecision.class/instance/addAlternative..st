@@ -1,4 +1,5 @@
 accessing
-addAlternative: aNode
-	alternatives add: aNode.
-	leafNodes do: [ :each | each add: aNode ]
+addAlternative: anAHPAlternative
+   anAHPAlternative clearParents.
+	alternatives add: anAHPAlternative.
+	leafNodes do: [ :each | each add: anAHPAlternative ]
