@@ -1,3 +1,3 @@
-Accessing
+accessing
 smartJudge
 	goalModel smartJudge
