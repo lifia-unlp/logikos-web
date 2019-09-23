@@ -8,4 +8,7 @@ testAddAlternative
 	decision addAlternative: alternative.
 	self
 		assertCollection: alternative parents
+		equals: (Set with: oldParent).
+	self
+		assertCollection: decision alternatives first parents
 		equals: (Set with: decision goalModel)

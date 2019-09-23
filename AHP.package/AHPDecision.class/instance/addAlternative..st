@@ -1,5 +1,6 @@
 accessing
 addAlternative: anAHPAlternative
-   anAHPAlternative clearParents.
-	alternatives add: anAHPAlternative.
-	leafNodes do: [ :each | each add: anAHPAlternative ]
+	| clonedAlternative |
+	clonedAlternative := anAHPAlternative cloneWithoutParents.
+	alternatives add: clonedAlternative.
+	leafNodes do: [ :each | each add: clonedAlternative ]

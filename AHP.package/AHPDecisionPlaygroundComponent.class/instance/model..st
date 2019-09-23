@@ -2,7 +2,6 @@ initialization
 model: aDecisionToEditOrCancel
 	originalDecision := aDecisionToEditOrCancel.
 	super model: originalDecision clone.
-
 	preferenceWeightingComponent := AHPSimplifiedPreferenceWeightingSubcomponent
 		parent: self.
 	inlineEditorComponentForName := AHPInlinePropertySubcomponent
