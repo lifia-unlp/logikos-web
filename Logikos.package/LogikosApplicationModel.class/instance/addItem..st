@@ -1,3 +1,6 @@
 accessing
 addItem: anItem
-	self addItem: anItem at: self defaultNamespaceLabel
+	| groups |
+	groups := anItem groups
+		ifEmpty: [ Set with: self defaultNamespaceLabel ].
+	groups do: [ :each | self addItem: anItem at: each ]
