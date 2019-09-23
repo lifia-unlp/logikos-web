@@ -3,4 +3,5 @@ initialize
 	parents := Set new.
 	nodes := OrderedCollection new.
 	comparisons := OrderedCollection new.
-	localPriorities := nil
+	localPriorities := nil.
+	isPristine := true. 

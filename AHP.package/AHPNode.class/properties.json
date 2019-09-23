@@ -10,7 +10,8 @@
 		"nodes",
 		"localPriorities",
 		"name",
-		"parents"
+		"parents",
+		"isPristine"
 	],
 	"name" : "AHPNode",
 	"type" : "normal"

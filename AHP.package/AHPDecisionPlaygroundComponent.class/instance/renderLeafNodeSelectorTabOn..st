@@ -11,4 +11,12 @@ renderLeafNodeSelectorTabOn: html
 					item
 						with: [ html anchor
 								callback: [ selectedLeafNode := each ];
-								with: each name, (each isTangible ifTrue: [ ' (Tangible)' ] ifFalse: [ ' (Intangible)' ]) ] ] ]
+								with: [ html
+										text: each name;
+										text:
+											(each isTangible
+												ifTrue: [ ' (Tangible)' ]
+												ifFalse: [ ' (Intangible)' ]).
+									each isPristine
+										ifTrue: [ html space.
+											html tbsGlyphIcon iconQuestionSign ] ] ] ] ]
