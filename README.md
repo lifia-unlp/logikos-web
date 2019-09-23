@@ -18,6 +18,7 @@ To build and install it, follow this steps.
 ```Smalltalk
 Metacello new
   baseline: 'Logikos';
-  repository: 'bitbucket://logikos-web/logikos';  onConflictUseLoaded;
+  repository: 'bitbucket://logikos-web/logikos:stable';
+  onConflictUseLoaded;
   load.
 ```
