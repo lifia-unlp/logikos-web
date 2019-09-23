@@ -1,6 +1,9 @@
 rendering-decisions
 renderTopItemsFor: each on: html
 	| alternatives |
+	(each leafNodes anySatisfy: [ :criteria | criteria isPristine ])
+		ifTrue: [ html tbsGlyphIcon iconQuestionSign.
+			^ self ].
 	alternatives := each alternatives
 		asSortedCollection: [ :earlier :later | earlier overallPriority > later overallPriority ].
 	html
