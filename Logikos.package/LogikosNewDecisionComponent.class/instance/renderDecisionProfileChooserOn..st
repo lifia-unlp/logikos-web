@@ -1,9 +1,14 @@
 rendering
 renderDecisionProfileChooserOn: html
-	name
-		ifNotNil: [ html tbsAlert beInfo
-				with:
-					'Now decide how you want to compare and rank the items you have collected. Each of the following strategies models a different way of comparing and ranking. Choose wisely !' ].
+	html label: 'Desicion profile'.
+	html paragraph: 'Choose a decision profile from the following list.'.
+	self session decisionProfiles
+		ifEmpty: [ ^ html tbsAlert
+				beWarning;
+				with: [ html
+						strong: 'The list is empty.';
+						text:
+							' Go to the Profiles tab in the main screen and define your first decision profile.' ] ].
 	html
 		tbsTable: [ html
 				tableHead: [ html
@@ -14,10 +19,7 @@ renderDecisionProfileChooserOn: html
 			html
 				tableBody: [ html
 						radioGroup: [ :group | 
-							(self session decisionProfiles
-								copyWith:
-									(LogikosDecisionProfile
-										forItems: self session items))
+							self session decisionProfiles
 								do: [ :each | 
 									html
 										tableRow: [ html

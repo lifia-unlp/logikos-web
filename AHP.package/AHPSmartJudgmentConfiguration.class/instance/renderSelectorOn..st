@@ -1,5 +1,8 @@
 rendering
 renderSelectorOn: html
+	html heading
+		level: 5;
+		with: 'Currently selected strategy'.
 	html
 		paragraph:
 			'These some alternatives for "smart judgement" that you can attach to a criteria to help the users:'.

@@ -1,5 +1,5 @@
 rendering
-renderValuesInDashboardOn: html
+renderPossibleValuesFromDashBoardOn: html
 	html label: 'Some possible values'.
 	html
 		paragraph: [ (self session uniqueValuesFor: self model name) asSortedCollection
