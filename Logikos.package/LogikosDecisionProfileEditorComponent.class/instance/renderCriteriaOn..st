@@ -7,9 +7,8 @@ renderCriteriaOn: html
 			html
 				tbsColumn: [ html
 						paragraph:
-							'This decision profiles considers the following criteria. The numbers in parenthesis indicate how important each of them is.'.
+							'This decision profiles considers the following criteria. The flash icon indicates when smart judgement has been configured.'.
 					html render: criteriaHierarchyComponent.
 					html
-						paragraph:
-							[ self renderUnmentionedPropertiesNoticeOn: html ] ]
+						paragraph: [ self renderUnmentionedPropertiesNoticeOn: html ] ]
 				mediumSize: 6 ]
