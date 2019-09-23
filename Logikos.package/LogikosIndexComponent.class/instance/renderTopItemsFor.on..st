@@ -1,7 +1,7 @@
 rendering-decisions
 renderTopItemsFor: each on: html
 	| alternatives |
-	(each leafNodes anySatisfy: [ :criteria | criteria isPristine ])
+	each hasPristineCriteria
 		ifTrue: [ html tbsGlyphIcon iconQuestionSign.
 			^ self ].
 	alternatives := each alternatives
