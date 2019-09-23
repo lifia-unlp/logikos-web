@@ -2,7 +2,7 @@ rendering
 renderLocalRankingOn: html
 	html heading
 		level: 5;
-		with: 'Ranking in terms of ' , selectedLeafNode name.
+		with: 'Ranking in terms of ' , selectedLeafNode name. 
 	html
 		orderedList: [ (self model alternatives
 				asSortedCollection: [ :earlier :later | 
@@ -12,5 +12,6 @@ renderLocalRankingOn: html
 					html
 						listItem: [ html
 								text:
-									each name , ' ' , (self localPriorityStringFor: each) , ' with ', selectedLeafNode name, ': '
-										, (each valueForCriteria: selectedLeafNode name) ] ] ]
+									each name , ' ' , (self localPriorityStringFor: each) , ' with '
+										, selectedLeafNode name , ': '
+										, ((each valueForCriteria: selectedLeafNode name) ifNil: [ 'NA' ]) ] ] ]
