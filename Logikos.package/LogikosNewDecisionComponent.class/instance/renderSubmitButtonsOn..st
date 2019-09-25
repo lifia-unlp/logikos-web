@@ -8,6 +8,6 @@ renderSubmitButtonsOn: html
 	html space.
 	html tbsSubmitButton
 		callback: [ self proceed ];
-		beDefault;
+		bePrimary;
 		beSmall;
 		with: 'Proceed'

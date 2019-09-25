@@ -8,7 +8,7 @@ tableHeadBlockOn: html
 						ifFalse: [ html space.
 							html anchor
 								callback: [ cleaningEnabledForColumn := prop ];
-								with: [ html tbsGlyphIcon iconWrench ] ]
+								with: [ html tbsGlyphIcon iconPencil ] ]
 						ifTrue: [ html break.
 							html tbsButton
 								beDefault;
