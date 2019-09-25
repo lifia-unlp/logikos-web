@@ -6,4 +6,4 @@ initialize
 		height: 250;
 		width: 400;
 		yourself.
-	returnButtonMode := #back
+	returnButtonMode := #none

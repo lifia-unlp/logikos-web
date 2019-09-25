@@ -10,3 +10,6 @@ renderMainContentOn: html
 				level: 4;
 				with: 'Local preferences'.
 			html render: preferencesComponent ].
+	html div
+		style: 'padding-top: 5px;';
+		with: [ self renderCancelAcceptButtonsOn: html ]

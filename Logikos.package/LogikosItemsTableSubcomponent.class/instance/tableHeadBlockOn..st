@@ -14,11 +14,11 @@ tableHeadBlockOn: html
 								beDefault;
 								beExtraSmall;
 								callback: [ cleaningEnabledForColumn := nil ];
-								with: 'confirm'.
+								with: 'cancel'.
 							html space.
 							html tbsButton
-								beDefault;
+								bePrimary;
 								beExtraSmall;
 								callback: [ cleaningEnabledForColumn := nil ];
-								with: 'cancel' ] ] ].
+								with: 'confirm' ] ] ].
 	html tableHeading: '' ]

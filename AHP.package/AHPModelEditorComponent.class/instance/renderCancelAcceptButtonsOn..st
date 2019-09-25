@@ -1,15 +1,13 @@
 rendering
-renderFormButtonsOn: html
+renderCancelAcceptButtonsOn: html
 	html anchor
 		callback: [ self cancel ];
 		with: [ html tbsButton
 				beDefault;
-				beExtraSmall;
 				with: 'Cancel' ].
 	html space.
 	html anchor
-		callback: [ self save ];
+		callback: [ self accept ];
 		with: [ html tbsButton
 				bePrimary;
-				beExtraSmall;
 				with: 'Accept' ]

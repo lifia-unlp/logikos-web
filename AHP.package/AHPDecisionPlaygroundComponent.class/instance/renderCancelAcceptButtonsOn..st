@@ -1,17 +1,7 @@
 rendering
 renderCancelAcceptButtonsOn: html
-	html paragraph
-		style: 'padding-top: 10px;';
-		with: [ html anchor
-				callback: [ self cancel ];
-				with: [ html tbsButton
-						beDefault;
-						beExtraSmall;
-						with: 'Cancel' ].
-			html space.
-			html anchor
-				callback: [ self accept ];
-				with: [ html tbsButton
-						beDefault;
-						beExtraSmall;
-						with: 'Accept' ] ]
+	html anchor
+		callback: [ self answer: nil ];
+		with: [ html tbsButton
+				bePrimary;
+				with: 'back' ]
