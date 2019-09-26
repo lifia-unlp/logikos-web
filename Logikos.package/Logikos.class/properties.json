@@ -1,13 +1,16 @@
 {
-	"commentStamp" : "Casco 11/25/2018 16:47",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "Logikos-model",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"singleton"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"property"
+		"templates",
+		"dashboards"
 	],
-	"name" : "SmartJudgmentStrategy",
+	"name" : "Logikos",
 	"type" : "normal"
 }

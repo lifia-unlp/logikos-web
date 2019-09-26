@@ -1,3 +1,3 @@
 api
 decisionProfiles
-	^ applicationModel decisionProfiles
+	^ applicationModel decisionProfilesAt: accessCode

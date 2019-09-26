@@ -1,3 +1,5 @@
-api
-addDecisionProfile: profile
-	applicationModel addDecisionProfile: profile
+accessing
+addDecisionProfile: aLogikosDecisionProfile
+	applicationModel
+		addDecisionProfile: aLogikosDecisionProfile
+		at: accessCode

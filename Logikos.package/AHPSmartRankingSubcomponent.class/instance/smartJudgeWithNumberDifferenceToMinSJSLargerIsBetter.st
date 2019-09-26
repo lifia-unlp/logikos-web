@@ -2,6 +2,6 @@ callbacks
 smartJudgeWithNumberDifferenceToMinSJSLargerIsBetter
 	| sjs |
 	sjs := NormalizedDifferenceSJS
-		valueBlock: [ :anObject | (anObject at: self parent selectedLeafNode name ifAbsent: [ nil ]) trimBoth asNumber ].
+		property: self parent selectedLeafNode name.
 	sjs largerIsBetter: true.
 	sjs smartJudge: self parent selectedLeafNode

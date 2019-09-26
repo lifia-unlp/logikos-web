@@ -9,6 +9,4 @@ selectStrategy: each
 		ifTrue:
 			[ configurationSubcomponent := NormalizedDifferenceSJSConfigSubcomponent
 				parent: self ].
-	selectedStrategy
-		ifNotNil: [ selectedStrategy
-				valueBlock: [ :object | object at: model name ifAbsent: [ nil ] ] ]
+	selectedStrategy ifNotNil: [ selectedStrategy property: model name ]

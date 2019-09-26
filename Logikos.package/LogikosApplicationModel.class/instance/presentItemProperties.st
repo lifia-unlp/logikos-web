@@ -1,3 +1,0 @@
-accessing
-presentItemProperties
-	^ self presentItemPropertiesAt: self defaultNamespaceLabel

@@ -7,4 +7,4 @@ startServer
 		addLibrary: TBSDeploymentLibrary;
 		sessionClass: LogikosSession.
 	WAAdmin defaultDispatcher defaultName: 'logikos'.
-	LogikosApplicationModel fuelIn
+	Logikos fuelIn
