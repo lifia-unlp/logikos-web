@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "Casco 11/24/2018 18:22",
+	"super" : "Object",
+	"category" : "Logikos-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alternatives",
+		"goalModel",
+		"leafNodes",
+		"name",
+		"notes"
+	],
+	"name" : "AHPDecision",
+	"type" : "normal"
+}

@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "Casco 11/24/2018 18:18",
+	"super" : "BootstrapComponentSkeleton",
+	"category" : "Logikos-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"preferenceWeightingComponent",
+		"inlineEditorComponentForName",
+		"selectedLeafNode",
+		"allowsNew",
+		"inlineEditorComponentForNotes",
+		"pieChartSubcomponent",
+		"originalDecision"
+	],
+	"name" : "AHPDecisionPlaygroundComponent",
+	"type" : "normal"
+}

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "Casco 11/24/2018 23:48",
+	"super" : "BootstrapSubComponentSkeleton",
+	"category" : "Logikos-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"node",
+		"readOnly",
+		"displayPriorities"
+	],
+	"name" : "AHPCriteriaHierarchySubcomponent",
+	"type" : "normal"
+}

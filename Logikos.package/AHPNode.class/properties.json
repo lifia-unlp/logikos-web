@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "Casco 11/24/2018 15:48",
+	"super" : "Object",
+	"category" : "Logikos-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"comparisons",
+		"nodes",
+		"localPriorities",
+		"name",
+		"parents",
+		"isPristine"
+	],
+	"name" : "AHPNode",
+	"type" : "normal"
+}

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "Casco 8/31/2019 09:34",
+	"super" : "SmartJudgmentStrategy",
+	"category" : "Logikos-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"largerIsBetter"
+	],
+	"name" : "NormalizedDifferenceSJS",
+	"type" : "normal"
+}

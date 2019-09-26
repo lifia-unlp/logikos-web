@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "FirstnameLastnameCasco 11/27/2018 09:06",
+	"super" : "Object",
+	"category" : "Logikos-web",
+	"classinstvars" : [
+		"singleton"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"decisions",
+		"rootNodes",
+		"sharedModels"
+	],
+	"name" : "AHPApplicationModel",
+	"type" : "normal"
+}

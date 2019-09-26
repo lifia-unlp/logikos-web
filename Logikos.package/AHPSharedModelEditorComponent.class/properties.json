@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "Casco 11/27/2018 17:29",
+	"super" : "BootstrapComponentSkeleton",
+	"category" : "Logikos-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"title",
+		"description",
+		"objectType",
+		"criteriaHierarchyComponent"
+	],
+	"name" : "AHPSharedModelEditorComponent",
+	"type" : "normal"
+}
