@@ -14,5 +14,5 @@ baseline: spec
 				package: 'Logikos'
 				with: [ spec
 						requires:
-							#('Seaside3' 'Seaside-REST-Core' 'Bootstrap' 'Bootstrap-Skeleton' 'NeoJSON' 'Seaside-Utilities''JSCharts') ].
+							#('Seaside3' 'Seaside-REST-Core' 'Bootstrap' 'Bootstrap-Skeleton' 'NeoJSON' 'Seaside-Utilities' 'JSCharts') ].
 			spec postLoadDoIt: #postLoadActions ]
