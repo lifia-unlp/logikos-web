@@ -10,8 +10,12 @@ renderPreferenceJudgmentBetween: firstNode and: secondNode on: html
 						do: [ :i | 
 							(self compare: firstNode to: secondNode) = i
 								ifTrue: [ html tbsGlyphIcon iconCheck ]
-								ifFalse: [ html anchor
-										callback: [ self compare: firstNode to: secondNode by: i ];
+								ifFalse: [ html span
+										style: 'cursor: pointer;';
+										onClick:
+											(html jQuery ajax
+												callback: [ self compare: firstNode to: secondNode by: i ];
+												onComplete: (self buildOnCompleteScriptsOn: html));
 										with: [ i = 1
 												ifTrue: [ html tbsGlyphIcon iconMinus ]
 												ifFalse: [ i > 1

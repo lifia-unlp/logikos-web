@@ -3,9 +3,14 @@ model: aNode
 	originalNode := aNode.
 	super model: aNode cloneWithoutParents.
 	name := self model name.
+	pieChartSubcomponent := PieChartSubComponent new
+		height: 250;
+		width: 400;
+		yourself.
 	preferencesComponent := (AHPExahustivePreferenceWeightingSubcomponent
 		parent: self)
 		node: self model;
+		dependentComponents: {pieChartSubcomponent};
 		yourself.
 	criteriaHierarchyComponent := (AHPCriteriaHierarchySubcomponent
 		parent: self)

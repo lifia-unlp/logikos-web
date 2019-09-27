@@ -4,7 +4,7 @@ tableDataString
 
 	| stream |
 	stream := String new writeStream.
-	stream nextPutAll: '[[''Task'', ''Hours per Day'']'.
+	stream nextPutAll: '[[''Property'', ''Relevance'']'.
 	data
 		keysAndValuesDo: [ :k :v | 
 			stream

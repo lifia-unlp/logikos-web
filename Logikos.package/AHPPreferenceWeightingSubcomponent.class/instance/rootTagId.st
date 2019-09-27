@@ -1,0 +1,3 @@
+rendering
+rootTagId
+	^ 'preferences-table'

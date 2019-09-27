@@ -2,6 +2,7 @@ rendering
 renderContentOn: html
 	| subNodes |
 	html tbsTable
+		id: self rootTagId;
 		beBordered;
 		with: [ html tableHead: [ self renderTableHeadingOn: html ].
 			html

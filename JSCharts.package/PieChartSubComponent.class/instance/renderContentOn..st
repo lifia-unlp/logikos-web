@@ -1,7 +1,7 @@
 rendering
 renderContentOn: html
 	html div
-		id: 'piechart';
+		id: self rootTagId ;
 		style:
 			'width: ' , width printString , 'px; height: ' , height printString
 				, 'px;'.
