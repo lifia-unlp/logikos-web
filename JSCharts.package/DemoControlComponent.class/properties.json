@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "Casco 9/29/2019 11:28",
+	"commentStamp" : "Casco 9/29/2019 11:23",
 	"super" : "WAComponent",
 	"category" : "JSCharts",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"width",
-		"height",
-		"data"
+		"data",
+		"dependentComponents"
 	],
-	"name" : "PieChartSubComponent",
+	"name" : "DemoControlComponent",
 	"type" : "normal"
 }

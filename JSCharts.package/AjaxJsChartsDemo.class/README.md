@@ -1,0 +1,1 @@
+WAAdmin register: AjaxJsChartsDemo asApplicationAt: 'demoAjax'

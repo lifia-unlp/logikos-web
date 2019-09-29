@@ -1,0 +1,1 @@
+WAAdmin register: AjaxJsChatsDemo asApplicationAt: 'jschart'

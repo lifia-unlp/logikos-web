@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"width",
-		"height",
+		"chartComponent",
+		"controlComponent",
 		"data"
 	],
-	"name" : "PieChartSubComponent",
+	"name" : "AjaxJsChartsDemo",
 	"type" : "normal"
 }

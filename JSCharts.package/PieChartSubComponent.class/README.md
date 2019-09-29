@@ -1,0 +1,1 @@
+WAAdmin register: PieChartSubComponent asApplicationAt: 'jsCharts'
