@@ -20,4 +20,8 @@ model: aNode
 		object: self model
 		selector: #comments
 		label: 'Comments'.
-	inlineEditorComponentForComments textArea: true
+	inlineEditorComponentForComments textArea: true.
+	inlineEditorComponentForUrl := AHPInlinePropertySubcomponent
+		object: self model
+		selector: #communityUrl
+		label: 'On-line community'

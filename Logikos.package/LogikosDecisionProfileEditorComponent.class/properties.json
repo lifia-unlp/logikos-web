@@ -12,7 +12,8 @@
 		"criteriaHierarchyComponent",
 		"inlineEditorComponentForName",
 		"inlineEditorComponentForComments",
-		"originalNode"
+		"originalNode",
+		"inlineEditorComponentForUrl"
 	],
 	"name" : "LogikosDecisionProfileEditorComponent",
 	"type" : "normal"
