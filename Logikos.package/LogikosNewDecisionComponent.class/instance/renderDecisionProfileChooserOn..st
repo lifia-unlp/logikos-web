@@ -1,6 +1,6 @@
 rendering
 renderDecisionProfileChooserOn: html
-	html label: 'Desicion profile'.
+	html label: 'Decision profile'.
 	html paragraph: 'Choose a decision profile from the following list.'.
 	self session decisionProfiles
 		ifEmpty: [ ^ html tbsAlert
