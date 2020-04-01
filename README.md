@@ -23,6 +23,6 @@ Metacello new
   load.
 ```
 
-# Licence #
+# License #
 
 The Logikós backend server is offered under the [GPL v3.0 lincense](https://www.gnu.org/licenses/gpl-3.0.en.html).  
