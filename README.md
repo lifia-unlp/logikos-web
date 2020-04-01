@@ -1,14 +1,14 @@
-# README #
+# README#
 
-This is the entry point to the  Logikós platform. The tools offers the following functionality:
+This is Logikós backend server, he entry point to the  Logikós platform. The tools offers the following functionality:
 
-* Sstore and browse available extraction templates (the templates are defined using the ["templates editor" web-extension] (https://bitbucket.org/logikos-web/templates-editor-webext/src/master/)). 
+* Sstore and browse available extraction templates (the templates are defined using the ["templates editor" web-extension](https://bitbucket.org/logikos-web/templates-editor-webext/src/master/)). 
 * Store, browse and curate information items (collected using the the ["items collector" web-extension](https://bitbucket.org/logikos-web/items-collector-webext/src/master/)
 * Create and use reusable multi-criteria (AHP) decision profiles to rank the collected information items.
 
 # Building  #
 
-This tool is build as a web application and a REST API. Is has been implemented in Pharo Smalltalk.
+This tool is built as a web application and a REST API. Is has been implemented in Pharo Smalltalk.
 
 To build and install it, follow this steps.
 
@@ -22,3 +22,7 @@ Metacello new
   onConflictUseLoaded;
   load.
 ```
+
+# Licence #
+
+The Logikós backend server is offered under the [GPL v3.0 lincense](https://www.gnu.org/licenses/gpl-3.0.en.html).  
