@@ -10,9 +10,7 @@ renderMainContentOn: html
 				level: 4;
 				with: 'Local preferences'.
 			html render: preferencesComponent.
-			html heading level: 4; with: 'AHP Matrix'.
-			html render: ahpMatrixComponent ].
-		
+			self renderAhpMatrixOn: html ].
 	html div
 		style: 'padding-top: 5px;';
 		with: [ self renderCancelAcceptButtonsOn: html ]

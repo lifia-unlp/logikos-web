@@ -14,7 +14,8 @@
 		"inlineEditorComponentForComments",
 		"originalNode",
 		"inlineEditorComponentForUrl",
-		"ahpMatrixComponent"
+		"ahpMatrixComponent",
+		"hideAHPMatrix"
 	],
 	"name" : "LogikosDecisionProfileEditorComponent",
 	"type" : "normal"
