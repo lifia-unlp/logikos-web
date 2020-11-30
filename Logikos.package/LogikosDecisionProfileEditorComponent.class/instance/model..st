@@ -7,6 +7,9 @@ model: aNode
 		parent: self)
 		node: self model;
 		yourself.
+	ahpMatrixComponent := AHPMatrixSubcomponent new
+		node: model;
+		yourself.
 	criteriaHierarchyComponent := (AHPCriteriaHierarchySubcomponent
 		parent: self)
 		node: self model;

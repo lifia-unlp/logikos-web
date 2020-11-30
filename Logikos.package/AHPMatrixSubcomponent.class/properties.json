@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BootstrapSubComponentSkeleton",
+	"category" : "Logikos-web",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"node"
+	],
+	"name" : "AHPMatrixSubcomponent",
+	"type" : "normal"
+}

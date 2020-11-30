@@ -13,7 +13,8 @@
 		"inlineEditorComponentForName",
 		"inlineEditorComponentForComments",
 		"originalNode",
-		"inlineEditorComponentForUrl"
+		"inlineEditorComponentForUrl",
+		"ahpMatrixComponent"
 	],
 	"name" : "LogikosDecisionProfileEditorComponent",
 	"type" : "normal"

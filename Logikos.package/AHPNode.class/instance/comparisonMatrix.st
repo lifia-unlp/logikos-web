@@ -1,7 +1,7 @@
 private
 comparisonMatrix
 	| comparisonMatrix |
-	comparisonMatrix := Matrix rows: nodes size columns: nodes size.
+	comparisonMatrix := Array2D rows: nodes size columns: nodes size.
 	comparisonMatrix
 		indicesDo: [ :row :column | 
 			comparisonMatrix
