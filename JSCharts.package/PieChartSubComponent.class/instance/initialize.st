@@ -1,5 +1,6 @@
 script
 initialize
+   super initialize. 
 	width := 900.
 	height := 500.
 	data := Dictionary new.
