@@ -20,4 +20,8 @@ renderContentOn: html
 										do: [ :columnNode | 
 											html tableData
 												style: 'text-align: center;';
-												with: [ html text: ((node compare: rowNode to: columnNode) asFloat round: 2 )  ] ] ] ] ] ]
+												with:
+														[ html text: ((node compare: rowNode to: columnNode) asFloat round: 2) ] ] ] ] ] ].
+	html
+		paragraph:
+			[ html text: 'CR: ' , (self consistencyRatio round: 2) printString ]
