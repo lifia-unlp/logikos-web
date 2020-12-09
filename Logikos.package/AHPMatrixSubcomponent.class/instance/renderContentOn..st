@@ -22,6 +22,4 @@ renderContentOn: html
 												style: 'text-align: center;';
 												with:
 														[ html text: ((node compare: rowNode to: columnNode) asFloat round: 2) ] ] ] ] ] ].
-	html
-		paragraph:
-			[ html text: 'CR: ' , (self consistencyRatio round: 2) printString ]
+	self renderConsistencyRatioOn: html
